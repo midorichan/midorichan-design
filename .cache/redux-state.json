@@ -290,7 +290,7 @@
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "icon": "src/images/faviconb-32x32.png"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -359,7 +359,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "56e775100761a61e490cfdd1eced6f8d",
+        "contentDigest": "dcfaf69df61b2f1beb3c3e71a6fc22e9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -453,7 +453,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "6ce84ea52c192dfa6ed83a90a23ae50d",
+      "version": "a6f9474e73179ef9785316116ceade74",
       "pluginOptions": {
         "plugins": []
       },
@@ -513,7 +513,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4a8af7abc6ff5f24fd520d6ba73c8cf8",
+        "contentDigest": "7f559473a3d9a8238ab207d04cf117d1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -615,18 +615,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "Paula Alonso Ishihara | Experience Designer"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-12T11:26:29.367Z",
+      "buildTime": "2018-10-12T17:22:56.246Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b16437d85ce139104f62acc6ae3d98d6",
+        "contentDigest": "9f5c2893047569f81efdae9f23ef8acc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -714,7 +714,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4e3bb85b0d58c3de24fd97a96afa60d2"
+    "PLUGINS_HASH": "cdd94371b767a6971de95826e235e0a0"
   },
   "componentDataDependencies": {
     "nodes": {
