@@ -287,8 +287,8 @@
         "name": "gatsby-starter-default",
         "short_name": "starter",
         "start_url": "/",
-        "background_color": "#663399",
-        "theme_color": "#663399",
+        "background_color": "#C70039",
+        "theme_color": "#C70039",
         "display": "minimal-ui",
         "icon": "src/images/faviconb-32x32.png"
       },
@@ -359,7 +359,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dcfaf69df61b2f1beb3c3e71a6fc22e9",
+        "contentDigest": "b3524c4d6ef881c94ef32d8d66e90e22",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -453,7 +453,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a6f9474e73179ef9785316116ceade74",
+      "version": "b849f31657b6fb54dc43fa4c3e8708a9",
       "pluginOptions": {
         "plugins": []
       },
@@ -513,7 +513,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7f559473a3d9a8238ab207d04cf117d1",
+        "contentDigest": "20330775c926c047ec58b951f1ca08a6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -621,12 +621,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-12T17:22:56.246Z",
+      "buildTime": "2019-03-12T20:46:22.734Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9f5c2893047569f81efdae9f23ef8acc",
+        "contentDigest": "ecd4b71e4d35ba1b841e471c5bc8db34",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -714,7 +714,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "cdd94371b767a6971de95826e235e0a0"
+    "PLUGINS_HASH": "f04dbd139af969992406d566741d79e2"
   },
   "componentDataDependencies": {
     "nodes": {

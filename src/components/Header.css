@@ -1,0 +1,33 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 0;
+    z-index: 100;
+}
+
+.HeaderGroup {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.Header a {
+    color: rgba(0,0,0,0.5);
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.Header a:hover {
+    color: #C70039;
+}
+
+@media (max-width: 640px) {
+    .Header {
+        padding: 15px 0;
+    }
+}
