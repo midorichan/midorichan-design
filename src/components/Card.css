@@ -1,0 +1,42 @@
+.Card {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    z-index: 1;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Card:hover {
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}
+
+.Card:hover img {
+    transform: translateY(-10px);
+}
+
+.Card img {
+    position: absolute;
+    top: 0;
+    height: 110%;
+    z-index: -1;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+.Card h3 {
+    color: white;
+    font-size: 24px;
+    margin: 20px 0 0 20px;
+    width: 300px;
+}
+
+.Card p {
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 20px 0 0 20px;
+
+}
