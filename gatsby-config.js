@@ -3,6 +3,13 @@ module.exports = {
     title: 'Paula Alonso Ishihara | Experience Designer',
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: '68nfklj2gzx5',
+        accessToken: 'ab3fd0ffb5aa70b106e4020809a3a2f0463a1ca99682269507aec1ded75cce79'
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

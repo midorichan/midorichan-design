@@ -8,5 +8,5 @@ exports.components = {
   "component---src-pages-page-2-js": () => import("/Users/paula/Documents/GitHub/midorichan-design/src/pages/page-2.js" /* webpackChunkName: "component---src-pages-page-2-js" */)
 }
 
-exports.data = () => import("/Users/paula/Documents/GitHub/midorichan-design/.cache/data.json")
+exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/paula/Documents/GitHub/midorichan-design/.cache/data.json")
 

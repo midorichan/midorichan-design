@@ -7,22 +7,22 @@
       "component": "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "804eec4298fa5cac76ddcd77d349f6a5",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "d51c2a4de6482563ce29bad1ec990b38",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin dev-404-page": {
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "Plugin dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -47,17 +47,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c7517a743c6319af2b1a5ecefa9a4f96",
+        "contentDigest": "be6114506bdf73de2e0ced8cb95449be",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin load-babel-config": {
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby/dist/internal-plugins/load-babel-config",
-      "id": "Plugin load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
@@ -82,17 +82,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fe669da3405d376fe525608b1a2cd3d2",
+        "contentDigest": "e94cdc1df42d1b7e243a4eb19311e192",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin internal-data-bridge": {
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "Plugin internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -118,17 +118,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b318082b433153ec74d54e5ff89accba",
+        "contentDigest": "c63a5f951027bf143643dc2ce5171f42",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin prod-404": {
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "Plugin prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -153,17 +153,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c7af311d44a946255c2b849aeb7891fc",
+        "contentDigest": "ad10d06a5d0b6429f8ff9277213b0c29",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin query-runner": {
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "Plugin query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
@@ -188,19 +188,174 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "dbc24482d7e32ade221cf55c9a9a37f2",
+        "contentDigest": "bd0b68e49ac14dbcfb7420532f3e3b1c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-react-helmet": {
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6ba6be92421adc72900a52a1ab6a08d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a385e738-e262-57c8-b39c-a6497f07ce62": {
+      "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-source-contentful",
+      "id": "a385e738-e262-57c8-b39c-a6497f07ce62",
+      "name": "gatsby-source-contentful",
+      "version": "2.0.38",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "68nfklj2gzx5",
+        "accessToken": "ab3fd0ffb5aa70b106e4020809a3a2f0463a1ca99682269507aec1ded75cce79",
+        "host": "cdn.contentful.com",
+        "environment": "master"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "2.0.38",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.28"
+          },
+          {
+            "name": "is-online",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "90bfa2079e92d2561af35f3ec4f0a1c6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-react-helmet",
-      "id": "Plugin gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.0",
+      "version": "3.0.9",
       "pluginOptions": {
         "plugins": []
       },
@@ -213,7 +368,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.0",
+        "version": "3.0.9",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -252,6 +407,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -259,27 +418,27 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           },
           {
             "name": "react-helmet",
-            "version": ">=5.1.3"
+            "version": "^5.1.3"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "95ccd71c9d97938c17282f64a353164d",
+        "contentDigest": "24e8a38a19fda2511f1b9cd32074a5a9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-manifest": {
+    "b8f9af53-f9ff-5ec3-b243-85904aed1e90": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-manifest",
-      "id": "Plugin gatsby-plugin-manifest",
+      "id": "b8f9af53-f9ff-5ec3-b243-85904aed1e90",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.5",
       "pluginOptions": {
@@ -356,17 +515,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b3524c4d6ef881c94ef32d8d66e90e22",
+        "contentDigest": "0c2409d6359043bec0d948c7708c1cad",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-offline": {
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-offline",
-      "id": "Plugin gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
       "name": "gatsby-plugin-offline",
       "version": "2.0.5",
       "pluginOptions": {
@@ -441,19 +600,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "261c6f4949e7292b25a9ac0ec11e9e14",
+        "contentDigest": "d446f5d0f009150cb70881a67f391249",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin default-site-plugin": {
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
-      "id": "Plugin default-site-plugin",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "b849f31657b6fb54dc43fa4c3e8708a9",
+      "version": "0889dd89fdaf250bfa8de7c7615b99a3",
       "pluginOptions": {
         "plugins": []
       },
@@ -472,8 +631,28 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "ajv",
+            "version": "^6.10.0"
+          },
+          {
+            "name": "ajv-keywords",
+            "version": "^3.4.0"
+          },
+          {
+            "name": "eslint-plugin-graphql",
+            "version": "^3.0.3"
+          },
+          {
+            "name": "express-graphql",
+            "version": "^0.7.1"
+          },
+          {
             "name": "gatsby",
-            "version": "^2.0.19"
+            "version": "^2.1.34"
+          },
+          {
+            "name": "gatsby-cli",
+            "version": "^2.4.16"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -485,7 +664,15 @@
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^3.0.0"
+            "version": "^3.0.9"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^2.0.38"
+          },
+          {
+            "name": "graphql",
+            "version": "^14.1.1"
           },
           {
             "name": "react",
@@ -510,19 +697,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "20330775c926c047ec58b951f1ca08a6",
+        "contentDigest": "e7a2492694f61178fad903fc7f544b23",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-page-creator": {
+    "a04fee75-0211-58d8-886d-c0fab3b68de9": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-page-creator",
-      "id": "Plugin gatsby-plugin-page-creator",
+      "id": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.1",
+      "version": "2.0.10",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/paula/Documents/GitHub/midorichan-design/src/pages",
@@ -537,7 +724,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.1",
+        "version": "2.0.10",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -559,7 +746,7 @@
           },
           {
             "name": "chokidar",
-            "version": "^1.7.0"
+            "version": "^2.1.2"
           },
           {
             "name": "fs-exists-cached",
@@ -572,6 +759,10 @@
           {
             "name": "lodash",
             "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
           },
           {
             "name": "parse-filepath",
@@ -592,6 +783,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
             "name": "cross-env",
             "version": "^5.0.5"
           }
@@ -599,16 +794,16 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fe84d1f673e31a7f23f8555f1c038799",
+        "contentDigest": "1f2dd3949b7216e1a1e602c369574c74",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -621,14 +816,40 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-12T20:46:22.734Z",
+      "buildTime": "2019-03-15T20:12:05.423Z",
       "id": "Site",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ecd4b71e4d35ba1b841e471c5bc8db34",
+        "contentDigest": "62279c29c1654180fb162c50fd39ff26",
         "type": "Site",
         "owner": "internal-data-bridge"
+      }
+    },
+    "96108cbb-09e7-5684-b739-107f377a6642": {
+      "id": "96108cbb-09e7-5684-b739-107f377a6642",
+      "parent": null,
+      "children": [],
+      "name": "Work",
+      "displayField": "projectName",
+      "description": "Design Projects",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "135d24792e6ccfcc7a8b38bface7da4f",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "51ac3bb7-e0e1-5743-86eb-14953e06270c": {
+      "id": "51ac3bb7-e0e1-5743-86eb-14953e06270c",
+      "parent": null,
+      "children": [],
+      "name": "Home",
+      "displayField": "title",
+      "description": "Featured Work in the Homepage",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "0961ac4773062c0f9ffcea76784d74d1",
+        "owner": "gatsby-source-contentful"
       }
     },
     "SitePage /404/": {
@@ -638,16 +859,16 @@
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+      "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
       "id": "SitePage /404/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0f928cac478a56c020b20e1abdbfbe6e",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "50f56510f49e4919e8fec1590b60d252",
+        "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
     },
@@ -658,16 +879,16 @@
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+      "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js",
       "id": "SitePage /",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cebc51232d444ff15878c0b8b96030e7",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "73a48db570742b631fa175f734fa704a",
+        "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
     },
@@ -678,16 +899,16 @@
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+      "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/page-2.js",
       "id": "SitePage /page-2/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "63f19699203413e668fc91c3ef0995c3",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "b3aa1a3808bc164be987600a9d9f75be",
+        "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
     },
@@ -698,23 +919,27 @@
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
       "id": "SitePage /404.html",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ffc71b5e996a6833fc6e5e4d2c344ca7",
-        "description": "Plugin prod-404",
+        "contentDigest": "c87659a913a7ddabe1f4f352bbfcb839",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
-    "plugins": {},
-    "PLUGINS_HASH": "f04dbd139af969992406d566741d79e2"
+    "plugins": {
+      "gatsby-source-contentful": {
+        "68nfklj2gzx5-master-cdn.contentful.com": "wonDrcKnRgcSOF4-wrDCgcKefWzCgsOxRwzDjnHCjcOrw73CrsKOGsKPcMK2JQXCjg"
+      }
+    },
+    "PLUGINS_HASH": "ee091757cb059a0fe30357526d3ccab6"
   },
   "componentDataDependencies": {
     "nodes": {

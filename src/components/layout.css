@@ -134,6 +134,7 @@ h1 span {
   grid-template-columns: repeat(3, 1fr);
   grid-gap:40px;
   justify-items: center;
+  justify-content: center;
   transition: 0.8s;
 }
 
