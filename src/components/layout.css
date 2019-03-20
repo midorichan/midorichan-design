@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:500,700');
 
 ::-moz-selection {
   color: white;
@@ -16,6 +17,7 @@ body {
   margin: 0;
   font-size: 20px;
   font-weight: 400;
+  color: #333333;
   -webkit-font-smoothing: antialiased;
   line-height: 1.3;
 }
@@ -27,7 +29,8 @@ a {
 }
 
 .Hero {
-  height: 650px;
+  height: 700px;
+  position: relative;
 }
 
 .HeroGroup {
@@ -59,7 +62,7 @@ a {
 }
 
 .Hero h2 {
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,0,0.6);
   font-size: 24px;
   transition: 0.5s;
 }
@@ -72,7 +75,7 @@ h1 span {
 .Hero a {
   padding: 5px 18px;
   color: white;
-  background-color: black;
+  background-color: #333333;
   border-radius: 18px;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   animation: HeroAnimation 3s 0.8s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -83,9 +86,16 @@ h1 span {
   background:  #C70039;
 }
 
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+}
+
 @media (max-width: 640px) {
   .Hero {
-    height: 500px;
+    height: 600px;
   }
 
   .HeroGroup {
@@ -119,19 +129,23 @@ h1 span {
 }
 
 .Cards {
-  background: #CCCCCC;
+  background: #cccccc;
 }
 
 .Cards h2 {
   padding: 20px 10px;
   margin: 0;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 .CardGroup {
   margin: 50px 40px 100px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   grid-gap:40px;
   justify-items: center;
   justify-content: center;
@@ -142,14 +156,14 @@ h1 span {
 @media (max-width: 1100px){
   .CardGroup {
     margin: 50px 40px 50px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     transition: 0.8s;
   }
 }
 
 @media (max-width: 750px){
   .CardGroup {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     transition: 0.8s;
   }
 }
@@ -157,7 +171,7 @@ h1 span {
 @media (max-width: 400px){
   .CardGroup {
     margin: 0;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     transition: 0.8s;
   }
 }

@@ -436,15 +436,15 @@
         "owner": "internal-data-bridge"
       }
     },
-    "b8f9af53-f9ff-5ec3-b243-85904aed1e90": {
+    "0edbba9a-8b04-50dc-a32f-6a477d308401": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-manifest",
-      "id": "b8f9af53-f9ff-5ec3-b243-85904aed1e90",
+      "id": "0edbba9a-8b04-50dc-a32f-6a477d308401",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
-        "name": "gatsby-starter-default",
-        "short_name": "starter",
+        "name": "midorichan-design",
+        "short_name": "midorichan",
         "start_url": "/",
         "background_color": "#C70039",
         "theme_color": "#C70039",
@@ -518,7 +518,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "0c2409d6359043bec0d948c7708c1cad",
+        "contentDigest": "1491d19c90dd2b8ee7845d8457fba4b7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -612,7 +612,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "0889dd89fdaf250bfa8de7c7615b99a3",
+      "version": "617a1b1761193a188bd666779d51d586",
       "pluginOptions": {
         "plugins": []
       },
@@ -700,7 +700,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e7a2492694f61178fad903fc7f544b23",
+        "contentDigest": "f1c1b5e4a561ebbb13c9b8ff1e33df42",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -810,18 +810,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Paula Alonso Ishihara | Experience Designer"
+        "title": "Paula Alonso Ishihara | UX Designer"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-15T20:12:05.423Z",
+      "buildTime": "2019-03-19T12:46:14.334Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "62279c29c1654180fb162c50fd39ff26",
+        "contentDigest": "fe628031fc59fd8757892be627957e40",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -872,6 +872,46 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+      "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "97141d6b1f775852c3841fdf29626e1e",
+        "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "jsonName": "blog-f7a",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+      "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bbe6d0c87097b5962d291eeb0b825ad6",
+        "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -892,22 +932,22 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
+    "SitePage /work/": {
+      "jsonName": "work-fa6",
+      "internalComponentName": "ComponentWork",
+      "path": "/work/",
+      "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js",
+      "componentChunkName": "component---src-pages-work-js",
       "context": {},
       "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
-      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js",
+      "id": "SitePage /work/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b3aa1a3808bc164be987600a9d9f75be",
+        "contentDigest": "d5d0c063e12eddfa24e995f443fb33a2",
         "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
@@ -939,7 +979,7 @@
         "68nfklj2gzx5-master-cdn.contentful.com": "wonDrcKnRgcSOF4-wrDCgcKefWzCgsOxRwzDjnHCjcOrw73CrsKOGsKPcMK2JQXCjg"
       }
     },
-    "PLUGINS_HASH": "ee091757cb059a0fe30357526d3ccab6"
+    "PLUGINS_HASH": "57a3506b7c274b92f3d315ad336fc08b"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -955,7 +995,10 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "work-fa6": "469/path---work-fa-6-fb4-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-f7a": "32/path---blog-f-7-a-05d-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js": {
@@ -966,13 +1009,21 @@
       "query": "",
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js"
     },
+    "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js"
+    },
+    "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js": {
+      "query": "",
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js"
+    },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js"
     },
-    "/Users/paula/Documents/GitHub/midorichan-design/src/pages/page-2.js": {
+    "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js": {
       "query": "",
-      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/page-2.js"
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js"
     }
   },
   "staticQueryComponents": {

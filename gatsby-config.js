@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Paula Alonso Ishihara | Experience Designer',
+    title: 'Paula Alonso Ishihara | UX Designer',
   },
   plugins: [
     {
@@ -14,8 +14,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'midorichan-design',
+        short_name: 'midorichan',
         start_url: '/',
         background_color: '#C70039',
         theme_color: '#C70039',
