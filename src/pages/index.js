@@ -12,14 +12,16 @@ const IndexPage = () => (
         <h1>I am Paula Alonso Ishihara<span>.</span></h1>
         <p>A designer passionate about creating usable digital products. I have worked with incredibly talented people across different companies.
         Currently based in Mar del Plata, Argentina.</p>
-        <Link to="/page-2/">Contact me</Link>
         <svg width="100%" height="172" viewBox="0 0 100% 172" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 25.9222C277 84.6264 433 65.7704 720 25.9222C934.818 -3.90394 1214.06 -5.23943 1442 8.07019C2079 45.2658 2208 63.5339 2560 25.9223V172L0 172V25.9222Z" fill="#CCCCCC"/>
         </svg>
       </div>
     </div>
     <div className="Cards">
-      <h2>Recent Work</h2>
+      <div className="Headline">
+        <h2>Recent Work</h2>
+        <div className="Underline"></div>
+      </div>
       <div className="CardGroup">
         <Card 
           title="Innovative Mobile Advertising for Luxury Brands"
@@ -39,7 +41,10 @@ const IndexPage = () => (
           image={require('../images/wallpaper2.jpg')}/>
       </div>
     </div>
-    <div>I’ve worked on projects for</div>
+    <div className="Headline">
+      <h2>I’ve worked on projects for</h2>
+      <div className="Underline"></div>
+    </div>
   </Layout>
 )
 

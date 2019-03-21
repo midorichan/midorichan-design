@@ -30,4 +30,8 @@
     .Header {
         padding: 15px 0;
     }
+
+    .Header a {
+        font-size: 15px;
+    }
 }

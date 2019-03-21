@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:500,700');
 
+
 ::-moz-selection {
   color: white;
   background: black;
@@ -98,10 +99,6 @@ h1 span {
     height: 600px;
   }
 
-  .HeroGroup {
-    padding: 100px 20px;
-  }
-
   .Hero h1 {
     font-size: 42px;
     line-height: 1.1;
@@ -117,6 +114,7 @@ h1 span {
   }
 }
 
+
 @keyframes HeroAnimation {
   0% {
     opacity: 0;
@@ -128,20 +126,38 @@ h1 span {
   }
 }
 
+.Headline {
+  margin: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  transition: 0.8s;
+}
+
+.Headline h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.Underline { 
+  width: 100px;
+  height: 2px;
+  border-radius: 1px;
+  margin-top: 12px;
+  color: #C70039;
+  background: #C70039;
+}
+
 .Cards {
   background: #cccccc;
 }
 
-.Cards h2 {
-  padding: 20px 10px;
+/* .Cards h2 {
   margin: 0;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 40px;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
 }
-
+ */
 .CardGroup {
   margin: 50px 40px 100px;
   display: grid;
@@ -170,8 +186,16 @@ h1 span {
 
 @media (max-width: 400px){
   .CardGroup {
-    margin: 0;
+    margin: 0 20px;
     grid-template-columns: 1fr;
     transition: 0.8s;
+  }
+
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+
+  .Headline {
+    margin: 0 20px;
   }
 }
