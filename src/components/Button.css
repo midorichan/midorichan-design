@@ -1,0 +1,13 @@
+.Button {
+    padding: 5px 18px;
+    color: white;
+    background-color: #333333;
+    border-radius: 18px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    animation: HeroAnimation 3s 0.8s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    opacity: 0;
+  }
+
+  .Button:hover {
+    background:  #C70039;
+  }

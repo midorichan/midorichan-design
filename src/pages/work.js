@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Card from '../components/Card';
+import Button from '../components/Button';
 
 const Work = () => (
   <Layout>
@@ -11,10 +12,11 @@ const Work = () => (
         <h1>Work<span>.</span></h1>
         <p>A designer passionate about creating usable digital products. I have worked with incredibly talented people across different companies.
         Currently based in Mar del Plata, Argentina.</p>
-        <Link to="/">Contact me</Link>
+        <Button to="/"
+                text="Contact me"/>
       </div>
     </div>
-    <div className="Cards">
+    <div className="Work">
       <h2>Recent Work</h2>
       <div className="CardGroup">
         <Card 
