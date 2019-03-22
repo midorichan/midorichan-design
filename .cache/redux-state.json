@@ -814,14 +814,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2019-03-19T12:46:14.334Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fe628031fc59fd8757892be627957e40",
+        "contentDigest": "2a551693e08bed425d76d73009f21f1c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
