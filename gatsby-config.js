@@ -20,6 +20,8 @@ module.exports = {
         background_color: '#C70039',
         theme_color: '#C70039',
         display: 'standalone',
+        include_favicon: false,
+        theme_color_in_head: false,
         icons: [
           {
             // Everything in /static will be copied to an equivalent
@@ -36,11 +38,6 @@ module.exports = {
             type: `image/png`,
           },
           {
-            src: `/favicons/apple-touch-icon.png`,
-            sizes: `180x180`,
-            type: `image/png`,
-          },
-          {
             src: `/favicons/favicon-16x16.png`,
             sizes: `16x16`,
             type: `image/png`,
@@ -50,12 +47,7 @@ module.exports = {
             sizes: `32x32`,
             type: `image/png`,
           },
-          {
-            src: `/favicons/favicon.ico`,
-            sizes: `32x32`,
-            type: `image/ico`,
-          },
-        ], // This path is relative to the root of the site.
+        ],
       },
     },
     'gatsby-plugin-offline',

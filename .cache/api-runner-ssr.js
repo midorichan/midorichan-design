@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"midorichan-design","short_name":"midorichan","start_url":"/","background_color":"#C70039","theme_color":"#C70039","display":"minimal-ui","icon":"src/images/faviconb-32x32.png"},
+      options: {"plugins":[],"name":"midorichan.design","short_name":"midorichan.design","start_url":"/","background_color":"#C70039","theme_color":"#C70039","display":"standalone","include_favicon":false,"theme_color_in_head":false,"icons":[{"src":"/favicons/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/favicons/android-chrome-512x512.png","sizes":"512x512","type":"image/png"},{"src":"/favicons/favicon-16x16.png","sizes":"16x16","type":"image/png"},{"src":"/favicons/favicon-32x32.png","sizes":"32x32","type":"image/png"}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

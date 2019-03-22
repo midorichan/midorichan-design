@@ -6,6 +6,7 @@
       "path": "/dev-404-page/",
       "component": "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
@@ -15,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d51c2a4de6482563ce29bad1ec990b38",
+        "contentDigest": "de241b01f74fcfea19d277d16d3aebd4",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
@@ -235,7 +236,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-source-contentful",
       "id": "a385e738-e262-57c8-b39c-a6497f07ce62",
       "name": "gatsby-source-contentful",
-      "version": "2.0.38",
+      "version": "2.0.42",
       "pluginOptions": {
         "plugins": [],
         "spaceId": "68nfklj2gzx5",
@@ -254,7 +255,7 @@
       "packageJson": {
         "name": "gatsby-source-contentful",
         "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
-        "version": "2.0.38",
+        "version": "2.0.42",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -297,6 +298,10 @@
           },
           {
             "name": "gatsby-plugin-sharp",
+            "version": "^2.0.30"
+          },
+          {
+            "name": "gatsby-source-filesystem",
             "version": "^2.0.28"
           },
           {
@@ -346,7 +351,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "90bfa2079e92d2561af35f3ec4f0a1c6",
+        "contentDigest": "d01b39d4d93921a980ecc59af97a201d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -436,20 +441,43 @@
         "owner": "internal-data-bridge"
       }
     },
-    "0edbba9a-8b04-50dc-a32f-6a477d308401": {
+    "921d3352-0e60-588d-835b-c8f3182f6265": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-manifest",
-      "id": "0edbba9a-8b04-50dc-a32f-6a477d308401",
+      "id": "921d3352-0e60-588d-835b-c8f3182f6265",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
-        "name": "midorichan-design",
-        "short_name": "midorichan",
+        "name": "midorichan.design",
+        "short_name": "midorichan.design",
         "start_url": "/",
         "background_color": "#C70039",
         "theme_color": "#C70039",
-        "display": "minimal-ui",
-        "icon": "src/images/faviconb-32x32.png"
+        "display": "standalone",
+        "include_favicon": false,
+        "theme_color_in_head": false,
+        "icons": [
+          {
+            "src": "/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          },
+          {
+            "src": "/favicons/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+          },
+          {
+            "src": "/favicons/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+          }
+        ]
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -518,7 +546,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1491d19c90dd2b8ee7845d8457fba4b7",
+        "contentDigest": "5ccd7d9e2666e920cc8e8d7f5d7213ae",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -612,7 +640,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "617a1b1761193a188bd666779d51d586",
+      "version": "b03db38dccbddd92aa6b4e382386b7ac",
       "pluginOptions": {
         "plugins": []
       },
@@ -648,11 +676,11 @@
           },
           {
             "name": "gatsby",
-            "version": "^2.1.34"
+            "version": "^2.2.8"
           },
           {
             "name": "gatsby-cli",
-            "version": "^2.4.16"
+            "version": "^2.4.17"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -668,7 +696,7 @@
           },
           {
             "name": "gatsby-source-contentful",
-            "version": "^2.0.38"
+            "version": "^2.0.42"
           },
           {
             "name": "graphql",
@@ -700,7 +728,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f1c1b5e4a561ebbb13c9b8ff1e33df42",
+        "contentDigest": "3d4db86ce03b3f40be59ae550d841aca",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -709,7 +737,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-page-creator",
       "id": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.10",
+      "version": "2.0.11",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/paula/Documents/GitHub/midorichan-design/src/pages",
@@ -724,7 +752,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.10",
+        "version": "2.0.11",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -746,7 +774,7 @@
           },
           {
             "name": "chokidar",
-            "version": "^2.1.2"
+            "version": "2.1.2"
           },
           {
             "name": "fs-exists-cached",
@@ -803,7 +831,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1f2dd3949b7216e1a1e602c369574c74",
+        "contentDigest": "ececa0068722b4613bae7e796168b6ee",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -814,12 +842,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-03-19T12:46:14.334Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-22T23:06:29.936Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "2a551693e08bed425d76d73009f21f1c",
+        "contentDigest": "8e18198a2daf5cb4662aa58869f4d8fe",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -856,6 +886,7 @@
       "path": "/404/",
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
@@ -865,7 +896,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "50f56510f49e4919e8fec1590b60d252",
+        "contentDigest": "c3f581a9aa459a45f911199726c92d8e",
         "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
@@ -876,6 +907,7 @@
       "path": "/about/",
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
@@ -885,7 +917,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "97141d6b1f775852c3841fdf29626e1e",
+        "contentDigest": "f95e06735ebb73e07ab71e01b2d4efb7",
         "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
@@ -896,6 +928,7 @@
       "path": "/blog/",
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js",
       "componentChunkName": "component---src-pages-blog-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
@@ -905,7 +938,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bbe6d0c87097b5962d291eeb0b825ad6",
+        "contentDigest": "8536680a1375d9d624df002179cfe21e",
         "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
@@ -916,6 +949,7 @@
       "path": "/",
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
@@ -925,7 +959,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "73a48db570742b631fa175f734fa704a",
+        "contentDigest": "893fd4b5353cf09b7c99a0d4ea2e0a42",
         "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
@@ -936,6 +970,7 @@
       "path": "/work/",
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js",
       "componentChunkName": "component---src-pages-work-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "a04fee75-0211-58d8-886d-c0fab3b68de9",
       "pluginCreatorId": "a04fee75-0211-58d8-886d-c0fab3b68de9",
@@ -945,7 +980,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5d0c063e12eddfa24e995f443fb33a2",
+        "contentDigest": "5c3a64b3ef966d65496382709f3932b5",
         "description": "a04fee75-0211-58d8-886d-c0fab3b68de9",
         "owner": "internal-data-bridge"
       }
@@ -956,6 +991,7 @@
       "path": "/404.html",
       "component": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
@@ -965,7 +1001,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c87659a913a7ddabe1f4f352bbfcb839",
+        "contentDigest": "0bd1e7c1a2d8ac305994ca7ecba1acdf",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
@@ -977,7 +1013,7 @@
         "68nfklj2gzx5-master-cdn.contentful.com": "wonDrcKnRgcSOF4-wrDCgcKefWzCgsOxRwzDjnHCjcOrw73CrsKOGsKPcMK2JQXCjg"
       }
     },
-    "PLUGINS_HASH": "57a3506b7c274b92f3d315ad336fc08b"
+    "PLUGINS_HASH": "73a6a64bee4d360ac6521ce7e2788596"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -989,14 +1025,14 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 755544856,
-    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "work-fa6": "469/path---work-fa-6-fb4-NZuapzHg3X9TaN1iIixfv1W23E",
-    "blog-f7a": "32/path---blog-f-7-a-05d-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "work-fa6": "892/path---work-fa-6-fb4-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "blog-f7a": "433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
     "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js": {
