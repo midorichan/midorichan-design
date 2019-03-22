@@ -51,7 +51,7 @@ p {
 }
 
 .Hero {
-  height: 700px;
+  height: 650px;
   position: relative;
 }
 
@@ -102,6 +102,10 @@ h1 span {
 }
 
 @media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 50px;
+  }
+
   .Hero {
     height: 600px;
   }
@@ -116,7 +120,7 @@ h1 span {
   }
 
   .Hero p {
-    font-size: 16px;
+    font-size: 18px;
     transition: 0.5s;
   }
 }
