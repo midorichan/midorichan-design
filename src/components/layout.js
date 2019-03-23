@@ -48,7 +48,6 @@ const Layout = ({ children }) => (
             />
           <link
               rel="mask-icon"
-              sizes="180x180"
               href={withPrefix('/favicons/safari-pinned-tab.svg')}
               color={'#c70039'}
             />

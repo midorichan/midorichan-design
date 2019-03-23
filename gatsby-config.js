@@ -19,7 +19,7 @@ module.exports = {
         start_url: '/',
         background_color: '#C70039',
         theme_color: '#C70039',
-        display: 'standalone',
+        display: 'minimal-ui',
         include_favicon: false,
         theme_color_in_head: false,
         icons: [
