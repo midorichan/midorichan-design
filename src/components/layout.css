@@ -40,9 +40,6 @@ a {
   text-decoration: underline;
 } */
 
-p {
-  padding-top: 10px;
-}
 
 .Content {
   margin: 0 auto;
@@ -52,6 +49,10 @@ p {
   line-height: 1.5;
   justify-items: start;
   transition: 0.8s;
+}
+
+.Content p {
+  margin-bottom: 0;
 }
 
 .Hero {
@@ -106,14 +107,17 @@ h1 span {
   z-index: -100;
 }
 
+.Avatar {
+  text-align: right;
+  opacity: 0; 
+  animation: HeroAnimation 3s 0.8s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s;
+}
+
 @media (max-width: 640px) {
   .HeroGroup {
     padding: 100px 50px;
   }
-
- /*  .Hero {
-    height: 600px;
-  } */
 
   .Hero h1 {
     font-size: 42px;
@@ -146,6 +150,8 @@ h1 span {
   margin: 0 auto;
   display: grid;
   max-width: 900px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   grid-template-columns: 1fr;
   transition: 0.8s;
 }

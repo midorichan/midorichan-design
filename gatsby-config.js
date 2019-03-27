@@ -15,7 +15,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'midorichan.design',
-        short_name: 'midorichan.design',
+        short_name: 'midorichan',
         start_url: '/',
         background_color: '#C70039',
         theme_color: '#C70039',

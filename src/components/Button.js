@@ -1,9 +1,8 @@
 import React from 'react'
 import './Button.css'
-import { Link } from 'gatsby';
 
 const Button = props => (
-        <Link className="Button" to={props.to}>{props.text}</Link>
+        <a className="Button" href={props.to}>{props.text}</a>
 )
 
 export default Button

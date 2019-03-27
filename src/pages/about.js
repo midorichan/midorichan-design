@@ -9,18 +9,27 @@ const About = () => (
      <div className="Hero">
       <div className="HeroGroup">
         <h1>About Me<span>.</span></h1>
-        <p>A designer passionate about creating usable digital products. I have worked with incredibly talented people across different companies.
-        Currently based in Mar del Plata, Argentina.</p>
+        <p>Midorichan is my nickname. I was named Midori「緑、みどり」 by my japanese grandparents, its meaning is: green. Over the years it has become part of my identity and my heritage.</p>
+        <div className="Avatar">
+          <img src={require('../images/paula-sepia.png')} width="300" alt="Paula Photo"/>
+        </div>
         <svg width="100%" height="137" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 25.9222C277 84.6264 433 65.7704 720 25.9222C934.818 -3.90394 1214.06 -5.23943 1442 8.07019C2079 45.2658 2208 63.5339 2560 25.9223V137H0V25.9222Z" fill="#EEEEEE"/>
         </svg>  
       </div>
     </div>
     <div className="Wave">
+      <div className="Headline">
+        <h2>All you need to know</h2>
+        <div className="Underline"></div>
+      </div>
       <div className="Content">
-        <p>Shores of the cosmic ocean as a patch of light consciousness citizens of distant epochs kindling the energy hidden in matter paroxysm of global death? Network of wormholes star stuff harvesting star light courage of our questions inconspicuous motes of rock and gas permanence of the stars star stuff harvesting star light. Vanquish the impossible not a sunrise but a galaxyrise bits of moving fluff descended from astronomers not a sunrise but a galaxyrise not a sunrise but a galaxyrise.</p>
-        <p>Made in the interiors of collapsing stars circumnavigated <Link to="/">Drake Equation</Link> cosmos worldlets explorations. Bits of moving fluff hundreds of thousands vastness is bearable only through love not a sunrise but a galaxyrise hydrogen atoms hundreds of thousands? Bits of moving fluff gathered by gravity great turbulent clouds bits of moving fluff muse about great turbulent clouds. Hundreds of thousands a very small stage in a vast cosmic arena vastness is bearable only through love dream of the mind's eye descended from astronomers the ash of stellar alchemy and billions upon billions upon billions upon billions upon billions upon billions upon billions.</p>
-        <Button to="/" 
+        <p>My name is Paula Alonso Ishihara and I'm an experience designer. I've been working in the tech industry for more than 10 years, and around half of that time I've been designing.</p>
+        <p>I studied System Engineering early in my career, and then switched to Graphic Design, lured by the creativity and the impact that visual can have on people's everyday life. But I couldn't stop there: I have always been insatiably curious, with a thirst for improvement for practically everything I found in my way, so when I came across experience design I knew it was the right job for me.</p>
+        <p>Before becoming a UX designer, I worked very closely with people (as a tech support rep), and as a QA Analyst. This background has helped me to understand people and their frustrations, to become a better listener, to empathize, and to want to channel all my energy towards making the experience count in the design of any product.</p>
+        <p>My past in sys engineering, and then in design, has given me a great mix to base my UX career on, and a solid foundation to become a full-stack designer.</p>
+        <p>You can find me online pretty much everywhere as midorichan (unless taken 😭), but here are some shortcuts:</p>
+        <Button to="https://dribbble.com/midorichan" 
                   text="Contact me" />
       </div>
     </div>
