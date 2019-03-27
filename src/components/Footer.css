@@ -1,0 +1,43 @@
+.Footer {
+    bottom: 0;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    z-index: 100;
+    font-size: 16px;
+}
+
+.FooterGroup {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 50px;
+    align-items: center;
+    justify-items: start;
+}
+
+@media (max-width: 900px) {
+
+    .FooterGroup {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .Footer {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .Footer a {
+        font-size: 15px;
+    }
+
+    .FooterGroup {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-gap: 20px;
+    }
+}

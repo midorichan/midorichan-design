@@ -6,6 +6,7 @@ import { withPrefix } from 'gatsby-link';
 
 import Header from './header'
 import './layout.css'
+import Footer from './Footer';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -55,6 +56,7 @@ const Layout = ({ children }) => (
         </Helmet>
           <Header />
           {children}
+          <Footer />
       </>
     )}
   />

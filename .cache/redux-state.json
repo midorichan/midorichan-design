@@ -844,12 +844,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-23T00:51:31.912Z",
+      "buildTime": "2019-03-25T22:54:18.387Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "48ec69240d2ba83196c633a8cb278bae",
+        "contentDigest": "a5fa9385a6fc7526ba8009e6a323d328",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

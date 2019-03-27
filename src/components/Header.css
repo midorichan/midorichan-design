@@ -23,7 +23,7 @@
 }
 
 .Header a:hover {
-    color: #C70039;
+    color: #000000; 
 }
 
 @media (max-width: 640px) {
@@ -35,3 +35,4 @@
         font-size: 15px;
     }
 }
+
