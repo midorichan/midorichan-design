@@ -173,10 +173,12 @@ h1 span {
 
 .Wave {
   background: #eeeeee;
+  min-height: 300px;
 }
 
 .Wave-black {
-  background: #000000;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  min-height: 300px;
 }
 
 .CardGroup {
