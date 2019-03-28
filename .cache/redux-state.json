@@ -441,15 +441,15 @@
         "owner": "internal-data-bridge"
       }
     },
-    "e165da20-ed01-5966-8599-f3b79a60bc12": {
+    "684d9c70-9ba8-53d4-8c0b-11470006ec45": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-manifest",
-      "id": "e165da20-ed01-5966-8599-f3b79a60bc12",
+      "id": "684d9c70-9ba8-53d4-8c0b-11470006ec45",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
         "name": "midorichan.design",
-        "short_name": "midorichan.design",
+        "short_name": "midorichan",
         "start_url": "/",
         "background_color": "#C70039",
         "theme_color": "#C70039",
@@ -546,7 +546,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9a5ab4158de612d272f962702a4736cc",
+        "contentDigest": "31313f947af82f8a71ca8d3644efa0d1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -640,7 +640,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "9e8f1893b6c6fb3934edfa4f6f9a526b",
+      "version": "99f9401fdd1dec043d51f4db682a73a4",
       "pluginOptions": {
         "plugins": []
       },
@@ -728,7 +728,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "2657e26d5ba3b3009736c2a25ab54c11",
+        "contentDigest": "cf3501d99161af59b9649743c46de7a8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -842,12 +842,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-03-25T22:54:18.387Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-27T23:58:24.787Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5caa9308f7f9f08e3c36843a41b579ff",
+        "contentDigest": "dfe83049491700df5288c5a4e81bcfd0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1011,7 +1013,7 @@
         "68nfklj2gzx5-master-cdn.contentful.com": "wonDrcKnRgcSOF4-wrDCgcKefWzCgsOxRwzDjnHCjcOrw73CrsKOGsKPcMK2JQXCjg"
       }
     },
-    "PLUGINS_HASH": "eaae51d4540405f1f0fc26932ab3be47"
+    "PLUGINS_HASH": "ead4dbdcc15a56082e1222fd250b7ffd"
   },
   "componentDataDependencies": {
     "nodes": {

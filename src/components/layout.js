@@ -8,6 +8,7 @@ import Header from './header'
 import './layout.css'
 import Footer from './Footer';
 
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -26,8 +27,8 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'My name is Paula Alonso Ishihara and I am a UX Designer.' },
             { name: 'keywords', content: 'midorichan, ux, designer, ux designer, ishihara' },
-            { name: 'apple-mobile-web-app-title', content: 'midorichan.design' },
-            { name: 'application-name', content: 'midorichan.design' },
+            { name: 'apple-mobile-web-app-title', content: 'midorichan' },
+            { name: 'application-name', content: 'midorichan' },
             { name: 'msapplication-TileColor', content: '#c70039' },
             { name: 'theme-color', content: '#c70039' },
           ]}

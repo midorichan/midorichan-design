@@ -204,7 +204,7 @@ h1 span {
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 450px){
   .CardGroup {
     margin: 0 20px;
     transition: 0.8s;
@@ -224,6 +224,10 @@ h1 span {
   .Content {
     margin: 0 20px;
     transition: 0.8s;
+  }
+
+  .Avatar img {
+    width: 240px;
   }
 }
 
