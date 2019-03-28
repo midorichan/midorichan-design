@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Card from '../components/Card';
 import Button from '../components/Button';
+import Emoji from '../components/Emoji';
 
 const IndexPage = () => (
   <Layout>
@@ -12,7 +13,7 @@ const IndexPage = () => (
         <h2>Hola. Hello. こんにちは。</h2>
         <h1>I am Paula Alonso Ishihara<span>.</span></h1>
         <p>A designer passionate about creating usable digital products. I have worked with incredibly talented people across different companies.
-        Currently based in Mar del Plata, Argentina.</p>
+        Currently based in <a className="underlined Offset" href="https://www.google.com/destination?q=mar+del+plata&newwindow=1&sa=X&site=search&output=search&dest_mid=/m/01psv5&ved=2ahUKEwiQ7Or_z6PhAhVUDrkGHdyeAiEQri4wInoECBQQAw" title="Mar del Plata, Buenos Aires, Argentina"><Emoji symbol="📍" label="Location Pushpin" />Mar del Plata, Argentina</a>.</p>
         <div className='icon-scroll'></div>
         <svg width="100%" height="137" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 25.9222C277 84.6264 433 65.7704 720 25.9222C934.818 -3.90394 1214.06 -5.23943 1442 8.07019C2079 45.2658 2208 63.5339 2560 25.9223V137H0V25.9222Z" fill="#EEEEEE"/>
@@ -50,7 +51,7 @@ const IndexPage = () => (
     </svg>
 
     <div className="Headline">
-      <h2>Recent Writings</h2>
+      <h2>Recent Writing</h2>
       <div className="Underline"></div>
     </div>
     <div className="Content">
@@ -59,6 +60,13 @@ const IndexPage = () => (
       <Button to="/" 
                 text="Contact me" />
     </div>
+    <svg width="100%" height="137" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 25.9222C277 84.6264 433 65.7704 720 25.9222C934.818 -3.90394 1214.06 -5.23943 1442 8.07019C2079 45.2658 2208 63.5339 2560 25.9223V137H0V25.9222Z" fill="#000000"/>
+     </svg>
+     <div className="Wave-black">Shores of the cosmic ocean as a patch of light consciousness citizens of distant epochs kindling the energy hidden in matter paroxysm of global death? Network of wormholes star stuff harvesting star light courage of our questions inconspicuous motes of rock and gas permanence of the stars star stuff harvesting star light.</div>
+        <svg width="100%" height="161" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2560 107.25C2402 149.981 2347 161 2197 161C2047 161 1704.44 45.803 1406 45.803C1120 45.803 934 199.065 0 107.25V0L2560 0V107.25Z" fill="#000000" />
+    </svg>
   </Layout>
 )
 

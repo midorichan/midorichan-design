@@ -175,6 +175,10 @@ h1 span {
   background: #eeeeee;
 }
 
+.Wave-black {
+  background: #000000;
+}
+
 .CardGroup {
   margin: 50px 40px 0;
   display: grid;
@@ -293,4 +297,8 @@ h1 span {
   background-position: 0 0.2em;
   /* didn't find another solution than mask the underline shape by a box shadow with the same color than the bg */
   box-shadow: inset 0 -.5em 0 0 white;
+}
+
+svg {
+  display: block;
 }

@@ -15,6 +15,7 @@
     grid-gap: 50px;
     align-items: center;
     justify-items: start;
+    color: rgba(0,0,0,0.5);
 }
 
 @media (max-width: 900px) {
