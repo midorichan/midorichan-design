@@ -745,11 +745,234 @@
         "owner": "internal-data-bridge"
       }
     },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f8146836875f98d27f38d7221d16ca12",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.32",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.32",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^1.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e127ec46bdba965c59eb4050c37ac8bf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "a5d17a387f7fbd5592e5ee663e2799f5",
+      "version": "eb35675b4ef8288c17c0737fcddca762",
       "pluginOptions": {
         "plugins": []
       },
@@ -802,6 +1025,10 @@
             "version": "^2.5.4"
           },
           {
+            "name": "gatsby-image",
+            "version": "^2.0.35"
+          },
+          {
             "name": "gatsby-plugin-manifest",
             "version": "^2.0.26"
           },
@@ -814,12 +1041,20 @@
             "version": "^3.0.11"
           },
           {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.32"
+          },
+          {
             "name": "gatsby-plugin-typography",
             "version": "^2.2.10"
           },
           {
             "name": "gatsby-source-contentful",
             "version": "^2.0.45"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.17"
           },
           {
             "name": "graphql",
@@ -859,7 +1094,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "451c456086541b9e2e3360c39e02cf21",
+        "contentDigest": "88c6798c3f6dc34005ba6c4b6cfa05f5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -977,12 +1212,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-30T14:22:25.312Z",
+      "buildTime": "2019-03-30T19:35:41.320Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3c309378b860dae20e9a79b71973ef27",
+        "contentDigest": "caf0014ae56c6eb0a8d7e656b99c8733",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1367,14 +1602,14 @@
         "68nfklj2gzx5-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCiQZVaVTDgMKuQVjDrzkfwqLCsiNiSn8yOiI5aw7Clh7CtnwXIDjCqcKXN8KgD2HDr1vDvMOBC8O9w6vCksOJF2N0woTCtsKTwq1eHMKlwrbCgFB0w5fCjcO6Ag"
       }
     },
-    "PLUGINS_HASH": "825bacd5738f646360509574c77488a7"
+    "PLUGINS_HASH": "3c5125364a2256bfb5a6a37c91abf574"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "/test",
-        "/test-two",
         "/",
+        "/test-two",
+        "/test",
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
       ],
@@ -1384,8 +1619,14 @@
       "a7ebdb23-56c0-552e-848a-6b70b7f0db56": [
         "/test"
       ],
+      "89fc9c97-ee88-59c5-8d50-103e5b90d18c": [
+        "/test-two"
+      ],
       "83e82f8b-aadb-5711-a4ca-d7d8e82ae8bd": [
         "/test-two"
+      ],
+      "e41c8f47-e072-56a2-a8b4-688fbccd8bec": [
+        "/test"
       ],
       "a3480920-90a1-5add-917f-fe9f8251cc90": [
         "/test"
@@ -1406,8 +1647,8 @@
   "jsonDataPaths": {
     "sq--src-components-seo-js": 2417117884,
     "sq--src-components-layout-js": 755544856,
-    "test-098": "641/path---test-098-ef6-WFVm8zbzFJLt9jdadG9qmRHzs",
-    "test-two-43f": "869/path---test-two-43-f-c85-3CbGaWi1luauoKUErfTtjKVoeTk",
+    "test-098": "267/path---test-098-ef6-xz1Vb5pqRPm29U3JKRE3YYiCIDQ",
+    "test-two-43f": "324/path---test-two-43-f-c85-pxYLUUnnd4OHH12CzL4ScKjsP4",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "blog-f7a": "433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8",
@@ -1419,7 +1660,7 @@
   "components": {
     "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js",
-      "query": "query ContentfulBlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  contentfulPost(slug: {eq: $slug}) {\n    title\n    subtitle\n    author\n    createdAt(formatString: \"MMMM DD, YYYY\")\n    content {\n      childContentfulRichText {\n        html\n      }\n    }\n  }\n}\n",
+      "query": "query ContentfulBlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  contentfulPost(slug: {eq: $slug}) {\n    title\n    subtitle\n    author\n    featuredImage {\n      fluid {\n        ...GatsbyContentfulFluid\n      }\n    }\n    createdAt(formatString: \"MMMM DD, YYYY\")\n    content {\n      childContentfulRichText {\n        html\n      }\n    }\n  }\n}\n\nfragment GatsbyContentfulFluid on ContentfulFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "pages": [
         "/test-two",
         "/test"
@@ -1477,14 +1718,6 @@
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-seo-js": {
-      "name": "usersPaulaDocumentsGitHubMidorichanDesignSrcComponentsSeoJs2417117884",
-      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/components/seo.js",
-      "id": "sq--src-components-seo-js",
-      "jsonName": "sq--src-components-seo-js",
-      "query": "query usersPaulaDocumentsGitHubMidorichanDesignSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
-      "hash": 2417117884
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/components/layout.js",
@@ -1492,6 +1725,14 @@
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "usersPaulaDocumentsGitHubMidorichanDesignSrcComponentsSeoJs2417117884",
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query usersPaulaDocumentsGitHubMidorichanDesignSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
     }
   }
 }

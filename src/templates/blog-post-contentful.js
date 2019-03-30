@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Img from "gatsby-image"
 
 class BlogPostContentfulTemplate extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class BlogPostContentfulTemplate extends React.Component {
           title={post.title}
           description={post.subtitle}
         />
+        <Img fluid={post.featuredImage.fluid} />
         <h1>{post.title}</h1>
         <p>{post.createdAt}</p>
         <div dangerouslySetInnerHTML={{ __html: post.content.childContentfulRichText.html }} />
@@ -58,6 +60,11 @@ export const pageQuery = graphql`
       title
       subtitle
       author
+      featuredImage {
+        fluid {
+          ...GatsbyContentfulFluid
+        }
+      }
       createdAt(formatString: "MMMM DD, YYYY")
       content {
         childContentfulRichText {

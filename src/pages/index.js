@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Card from '../components/Card';
@@ -11,7 +12,6 @@ import Emoji from '../components/Emoji';
 class IndexPage extends React.Component {
 
   render() {
-
   const { data } = this.props
   const posts = data.allContentfulPost.edges
   
