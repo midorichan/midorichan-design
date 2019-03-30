@@ -26,7 +26,7 @@ const About = () => (
       </div>
       <div className="Content">
         <p>I studied System Engineering early in my career, and then switched to Graphic Design, lured by the creativity and the impact that visual can have on people's everyday life. But I couldn't stop there: I have always been insatiably curious, with a thirst for improvement for practically everything I found in my way, so when I came across experience design I knew it was the right job for me.</p>
-        <p>Before becoming a UX designer, I worked very closely with people (as a tech support rep), and as a QA Analyst. This background has helped me to understand people and their frustrations, to become a better listener, to empathize, and to want to channel all my energy towards making the experience count in the design of any product.</p>
+        <p>Before becoming a <Link to="/">UX designer</Link>, I worked very closely with people (as a tech support rep), and as a QA Analyst. This background has helped me to understand people and their frustrations, to become a better listener, to empathize, and to want to channel all my energy towards making the experience count in the design of any product.</p>
         <p>My past in sys engineering, and then in design, has given me a great mix to base my UX career on, and a solid foundation to become a full-stack designer.</p>
         <p>You can find me online pretty much everywhere as midorichan (unless taken <Emoji symbol="😭" label="crying" />).</p>
         <Button to="https://dribbble.com/midorichan" 

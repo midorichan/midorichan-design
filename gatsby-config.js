@@ -1,13 +1,21 @@
+const dotenv = require('dotenv')
+
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config()
+}
+
 module.exports = {
   siteMetadata: {
     title: 'Paula Alonso Ishihara | UX Designer',
+    description: 'My name is Paula Alonso Ishihara and I am a UX Designer.',
+    author: 'Paula',
   },
   plugins: [
     {
       resolve: 'gatsby-source-contentful',
       options: {
         spaceId: '68nfklj2gzx5',
-        accessToken: 'ab3fd0ffb5aa70b106e4020809a3a2f0463a1ca99682269507aec1ded75cce79'
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
     },
     'gatsby-plugin-react-helmet',
@@ -51,5 +59,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    '@contentful/gatsby-transformer-contentful-richtext',
   ],
 }

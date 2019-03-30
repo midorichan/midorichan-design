@@ -30,6 +30,16 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-post-contentful-js",
+        "jsonName": "test-098",
+        "path": "/test"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-contentful-js",
+        "jsonName": "test-two-43f",
+        "path": "/test-two"
+    },
+    {
         "componentChunkName": "component---src-pages-work-js",
         "jsonName": "work-fa6",
         "path": "/work/"
