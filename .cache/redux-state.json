@@ -975,7 +975,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "80da029fa209f1bb6f3c239ca29b5391",
+      "version": "87dfd843027e689583a187771357ca11",
       "pluginOptions": {
         "plugins": []
       },
@@ -1105,7 +1105,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c3458200ef44dc6c7bedaf8a6fb4f112",
+        "contentDigest": "3530a94cf8d9d0a8145d3b79d12d34a8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1221,14 +1221,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-04-01T16:05:46.919Z",
+      "buildTime": "2019-04-01T23:34:04.370Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8c5c61c97bce98b967b83d516ed10058",
+        "contentDigest": "e4fa1817078a0451bd5e10d0875ae8bd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1282,14 +1280,14 @@
       "id": "a7ebdb23-56c0-552e-848a-6b70b7f0db56",
       "contentful_id": "3ovRSx1bA7AraL36hBstD7",
       "createdAt": "2019-03-30T01:47:59.798Z",
-      "updatedAt": "2019-03-31T22:12:48.672Z",
+      "updatedAt": "2019-04-01T16:08:17.078Z",
       "parent": "Post",
       "children": [
         "a3480920-90a1-5add-917f-fe9f8251cc90"
       ],
       "internal": {
         "type": "ContentfulPost",
-        "contentDigest": "324561b363e4f00a13501f51b31952ec",
+        "contentDigest": "e62a10a48ca537102355c3eec931e8db",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -1610,10 +1608,10 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "68nfklj2gzx5-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyYpYsK1woDCiDl-D1jDsG8dKMKWwocvwqUsw4jDjnzDky1VJ8KXLQ7DnMKMb8OkJ8OTK3TCgDbDmnnDkTXCoTcxwqrDqcKJcGnDvyRfw5xhw6YFWyfCucOaw5XDu8Os"
+        "68nfklj2gzx5-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCknvDoms7NnN5OV7CicK5d8KCcMK_GX13fsKXw7ddwpF1SSt9wq_DpsORRMKvw7TDucKYDjs-McO_X8KSwpPCvcOww67CryPDpgBDK8O8cxPDihTCiA3CgMKJTic"
       }
     },
-    "PLUGINS_HASH": "da33ac2adcaaf89051b0f57617f7e309"
+    "PLUGINS_HASH": "1308aa0d8550e33bb165037a9faca50f"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1670,13 +1668,13 @@
   },
   "components": {
     "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js": {
-      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js",
       "query": "query ContentfulBlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  contentfulPost(slug: {eq: $slug}) {\n    title\n    subtitle\n    author\n    featuredImage {\n      fluid {\n        ...GatsbyContentfulFluid\n      }\n    }\n    createdAt(formatString: \"MMMM DD, YYYY\")\n    content {\n      childContentfulRichText {\n        html\n      }\n    }\n  }\n}\n\nfragment GatsbyContentfulFluid on ContentfulFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js",
       "pages": [
         "/test",
         "/test-two"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js",

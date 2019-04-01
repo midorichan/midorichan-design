@@ -67,7 +67,7 @@ module.exports = {
         renderOptions: {
           /*
            * Defines custom html string for each node type like heading, embedded entries etc..
-           */
+          */
           renderNode: {
             // Example
             [BLOCKS.EMBEDDED_ASSET]: node => {
@@ -75,7 +75,7 @@ module.exports = {
                 node.data.target.fields.file['en-US'].url
               }"/></picture>`
             },
-          },
+          }, 
         },
       },
     },
