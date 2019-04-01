@@ -650,13 +650,16 @@
         "owner": "internal-data-bridge"
       }
     },
-    "23945108-2382-5ea7-8d0d-12011e44d0d9": {
+    "d8c2fa12-d65f-53c7-ad66-9a3d612684ee": {
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design/node_modules/@contentful/gatsby-transformer-contentful-richtext",
-      "id": "23945108-2382-5ea7-8d0d-12011e44d0d9",
+      "id": "d8c2fa12-d65f-53c7-ad66-9a3d612684ee",
       "name": "@contentful/gatsby-transformer-contentful-richtext",
       "version": "13.1.0",
       "pluginOptions": {
-        "plugins": []
+        "plugins": [],
+        "renderOptions": {
+          "renderNode": {}
+        }
       },
       "nodeAPIs": [
         "onCreateNode",
@@ -740,7 +743,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "97adb55aec2a58c3ce36c12350f297b5",
+        "contentDigest": "7b29c68c8f8a235f8d16f26215689feb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -972,7 +975,7 @@
       "resolve": "/Users/paula/Documents/GitHub/midorichan-design",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "eb35675b4ef8288c17c0737fcddca762",
+      "version": "80da029fa209f1bb6f3c239ca29b5391",
       "pluginOptions": {
         "plugins": []
       },
@@ -994,6 +997,14 @@
         "dependencies": [
           {
             "name": "@contentful/gatsby-transformer-contentful-richtext",
+            "version": "^13.1.0"
+          },
+          {
+            "name": "@contentful/rich-text-react-renderer",
+            "version": "^13.2.0"
+          },
+          {
+            "name": "@contentful/rich-text-types",
             "version": "^13.1.0"
           },
           {
@@ -1094,7 +1105,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "88c6798c3f6dc34005ba6c4b6cfa05f5",
+        "contentDigest": "c3458200ef44dc6c7bedaf8a6fb4f112",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1212,12 +1223,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-30T19:35:41.320Z",
+      "buildTime": "2019-04-01T16:05:46.919Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "caf0014ae56c6eb0a8d7e656b99c8733",
+        "contentDigest": "8c5c61c97bce98b967b83d516ed10058",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1261,6 +1272,28 @@
         "owner": "gatsby-source-contentful"
       }
     },
+    "a7ebdb23-56c0-552e-848a-6b70b7f0db56": {
+      "title": "This is my first test post",
+      "subtitle": "This is looking good!",
+      "author": "Paula",
+      "slug": "test",
+      "featuredImage___NODE": "e41c8f47-e072-56a2-a8b4-688fbccd8bec",
+      "content___NODE": "a3480920-90a1-5add-917f-fe9f8251cc90",
+      "id": "a7ebdb23-56c0-552e-848a-6b70b7f0db56",
+      "contentful_id": "3ovRSx1bA7AraL36hBstD7",
+      "createdAt": "2019-03-30T01:47:59.798Z",
+      "updatedAt": "2019-03-31T22:12:48.672Z",
+      "parent": "Post",
+      "children": [
+        "a3480920-90a1-5add-917f-fe9f8251cc90"
+      ],
+      "internal": {
+        "type": "ContentfulPost",
+        "contentDigest": "324561b363e4f00a13501f51b31952ec",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
     "7812045a-c7b7-5912-bc8e-8d569cba7628": {
       "title": "Second post test",
       "subtitle": "Because one test is not enough",
@@ -1283,27 +1316,22 @@
       },
       "node_locale": "en-US"
     },
-    "a7ebdb23-56c0-552e-848a-6b70b7f0db56": {
-      "title": "This is my first test post",
-      "subtitle": "This is looking good!",
-      "author": "Paula",
-      "slug": "test",
-      "featuredImage___NODE": "e41c8f47-e072-56a2-a8b4-688fbccd8bec",
-      "content___NODE": "a3480920-90a1-5add-917f-fe9f8251cc90",
-      "id": "a7ebdb23-56c0-552e-848a-6b70b7f0db56",
-      "contentful_id": "3ovRSx1bA7AraL36hBstD7",
-      "createdAt": "2019-03-30T01:47:59.798Z",
-      "updatedAt": "2019-03-30T01:47:59.798Z",
-      "parent": "Post",
+    "a3480920-90a1-5add-917f-fe9f8251cc90": {
+      "data": {},
+      "content": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Hypatia from which we spring a very small stage in a vast cosmic arena hearts of the stars paroxysm of global death worldlets? Two \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"ghostly\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" white figures in coveralls and helmets are soflty dancing white dwarf sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem bits of moving fluff cosmic ocean rich in heavy atoms. Sea of Tranquility made in the interiors of collapsing stars permanence of the stars quis nostrum exercitationem ullam corporis suscipit laboriosam gathered by gravity the sky calls to us.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{\"target\":{\"sys\":{\"space\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Space\",\"id\":\"c68nfklj2gzx5\"}},\"id\":\"c6UcDcLLMKuOjVwcItujIrW\",\"type\":\"Asset\",\"createdAt\":\"2019-03-30T01:45:52.281Z\",\"updatedAt\":\"2019-03-30T01:45:52.281Z\",\"environment\":{\"sys\":{\"id\":\"master\",\"type\":\"Link\",\"linkType\":\"Environment\"}},\"revision\":1},\"fields\":{\"title\":{\"en-US\":\"Test\"},\"description\":{\"en-US\":\"Test image\"},\"file\":{\"en-US\":{\"url\":\"//images.ctfassets.net/68nfklj2gzx5/6UcDcLLMKuOjVwcItujIrW/f45ab6cf940e03227ed785e10fe6f95e/floriane-vita-88722-unsplash.jpg\",\"details\":{\"size\":896111,\"image\":{\"width\":2299,\"height\":1527}},\"fileName\":\"floriane-vita-88722-unsplash.jpg\",\"contentType\":\"image/jpeg\"}}}}},\"content\":[],\"nodeType\":\"embedded-asset-block\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Concept of the number one brain is the seed of intelligence white dwarf cosmic ocean hundreds of thousands colonies. Two ghostly white figures in coveralls and helmets are soflty dancing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"blockquote\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Intelligent beings globular star cluster corpus callosum cosmic ocean vastness is bearable only through love Cambrian explosion. Apollonius of Perga rich in mystery muse about permanence of the stars the ash of stellar alchemy stirred by starlight. Two ghostly white figures in coveralls and helmets are soflty dancing inconspicuous motes of rock and gas courage of our questions concept of the number one from which we spring gathered by gravity and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline too!\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}",
+      "nodeType": "document",
+      "id": "a3480920-90a1-5add-917f-fe9f8251cc90",
+      "parent": "a7ebdb23-56c0-552e-848a-6b70b7f0db56",
       "children": [
-        "a3480920-90a1-5add-917f-fe9f8251cc90"
+        "a63509c8-22a4-5a4b-91a7-32a58043e227"
       ],
       "internal": {
-        "type": "ContentfulPost",
-        "contentDigest": "0def802cac7c2c8b77e20ae5009a3cf2",
+        "type": "contentfulPostContentRichTextNode",
+        "mediaType": "text/richtext",
+        "content": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Hypatia from which we spring a very small stage in a vast cosmic arena hearts of the stars paroxysm of global death worldlets? Two \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"ghostly\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" white figures in coveralls and helmets are soflty dancing white dwarf sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem bits of moving fluff cosmic ocean rich in heavy atoms. Sea of Tranquility made in the interiors of collapsing stars permanence of the stars quis nostrum exercitationem ullam corporis suscipit laboriosam gathered by gravity the sky calls to us.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{\"target\":{\"sys\":{\"space\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Space\",\"id\":\"c68nfklj2gzx5\"}},\"id\":\"c6UcDcLLMKuOjVwcItujIrW\",\"type\":\"Asset\",\"createdAt\":\"2019-03-30T01:45:52.281Z\",\"updatedAt\":\"2019-03-30T01:45:52.281Z\",\"environment\":{\"sys\":{\"id\":\"master\",\"type\":\"Link\",\"linkType\":\"Environment\"}},\"revision\":1},\"fields\":{\"title\":{\"en-US\":\"Test\"},\"description\":{\"en-US\":\"Test image\"},\"file\":{\"en-US\":{\"url\":\"//images.ctfassets.net/68nfklj2gzx5/6UcDcLLMKuOjVwcItujIrW/f45ab6cf940e03227ed785e10fe6f95e/floriane-vita-88722-unsplash.jpg\",\"details\":{\"size\":896111,\"image\":{\"width\":2299,\"height\":1527}},\"fileName\":\"floriane-vita-88722-unsplash.jpg\",\"contentType\":\"image/jpeg\"}}}}},\"content\":[],\"nodeType\":\"embedded-asset-block\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Concept of the number one brain is the seed of intelligence white dwarf cosmic ocean hundreds of thousands colonies. Two ghostly white figures in coveralls and helmets are soflty dancing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"blockquote\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Intelligent beings globular star cluster corpus callosum cosmic ocean vastness is bearable only through love Cambrian explosion. Apollonius of Perga rich in mystery muse about permanence of the stars the ash of stellar alchemy stirred by starlight. Two ghostly white figures in coveralls and helmets are soflty dancing inconspicuous motes of rock and gas courage of our questions concept of the number one from which we spring gathered by gravity and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline too!\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}",
+        "contentDigest": "5f038234b02b96e12d7f35f69ff400a2",
         "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
+      }
     },
     "83e82f8b-aadb-5711-a4ca-d7d8e82ae8bd": {
       "data": {},
@@ -1319,23 +1347,6 @@
         "mediaType": "text/richtext",
         "content": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit billions upon billions descended from astronomers Tunguska event billions upon billions. With pretty stories for which there's little good evidence at the edge of forever qui dolorem ipsum quia dolor sit amet from which we spring Drake Equation take root and flourish.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{\"target\":{\"sys\":{\"space\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Space\",\"id\":\"c68nfklj2gzx5\"}},\"id\":\"c4Dw4ozpXRqlDKn1blKRMj6\",\"type\":\"Asset\",\"createdAt\":\"2019-03-30T01:53:04.053Z\",\"updatedAt\":\"2019-03-30T01:53:04.053Z\",\"environment\":{\"sys\":{\"id\":\"master\",\"type\":\"Link\",\"linkType\":\"Environment\"}},\"revision\":1},\"fields\":{\"title\":{\"en-US\":\"Second Image\"},\"description\":{\"en-US\":\"Second Image\"},\"file\":{\"en-US\":{\"url\":\"//images.ctfassets.net/68nfklj2gzx5/4Dw4ozpXRqlDKn1blKRMj6/e8d9be90c82f457438294e3766d399b3/ian-schneider-66374-unsplash.jpg\",\"details\":{\"size\":7641537,\"image\":{\"width\":6016,\"height\":4016}},\"fileName\":\"ian-schneider-66374-unsplash.jpg\",\"contentType\":\"image/jpeg\"}}}}},\"content\":[],\"nodeType\":\"embedded-asset-block\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Cosmic ocean a mote of dust suspended in a sunbeam sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium galaxies made in the interiors of collapsing stars? Realm of the galaxies how far away vanquish the impossible intelligent beings across the centuries extraordinary claims require extraordinary evidence. Qui dolorem ipsum quia dolor sit amet not a sunrise but a galaxyrise courage of our questions at the edge of forever qui dolorem ipsum quia dolor sit amet circumnavigated?\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Tingling of the spine descended from astronomers a still more glorious dawn awaits bits of moving fluff Flatland corpus callosum. Concept of the number one extraordinary claims require extraordinary evidence gathered by gravity.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"blockquote\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ut enim ad minima veniam vastness is bearable only through love decipherment. Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt the only home we've ever known quis nostrum exercitationem ullam corporis suscipit laboriosam extraordinary claims require extraordinary evidence Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit another world.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ordered elements\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\" First\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Second \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Third\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"ordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Vastness is bearable only through love tesseract the only home we've ever known quis nostrum exercitationem ullam corporis suscipit laboriosam rich in mystery Cambrian explosion. Descended from astronomers Euclid brain is the seed of intelligence Neque porro quisquam est emerged into consciousness extraordinary claims require extraordinary evidence. Network of wormholes two ghostly white figures in coveralls and helmets are soflty dancing how far away vel illum qui dolorem eum fugiat quo voluptas nulla pariatur rich in heavy atoms Ut enim ad minima veniam and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}",
         "contentDigest": "a2d4229ba085c1f47d815c74e4ffedb3",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "a3480920-90a1-5add-917f-fe9f8251cc90": {
-      "data": {},
-      "content": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Hypatia from which we spring a very small stage in a vast cosmic arena hearts of the stars paroxysm of global death worldlets? Two \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"ghostly\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" white figures in coveralls and helmets are soflty dancing white dwarf sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem bits of moving fluff cosmic ocean rich in heavy atoms. Sea of Tranquility made in the interiors of collapsing stars permanence of the stars quis nostrum exercitationem ullam corporis suscipit laboriosam gathered by gravity the sky calls to us.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{\"target\":{\"sys\":{\"space\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Space\",\"id\":\"c68nfklj2gzx5\"}},\"id\":\"c6UcDcLLMKuOjVwcItujIrW\",\"type\":\"Asset\",\"createdAt\":\"2019-03-30T01:45:52.281Z\",\"updatedAt\":\"2019-03-30T01:45:52.281Z\",\"environment\":{\"sys\":{\"id\":\"master\",\"type\":\"Link\",\"linkType\":\"Environment\"}},\"revision\":1},\"fields\":{\"title\":{\"en-US\":\"Test\"},\"description\":{\"en-US\":\"Test image\"},\"file\":{\"en-US\":{\"url\":\"//images.ctfassets.net/68nfklj2gzx5/6UcDcLLMKuOjVwcItujIrW/f45ab6cf940e03227ed785e10fe6f95e/floriane-vita-88722-unsplash.jpg\",\"details\":{\"size\":896111,\"image\":{\"width\":2299,\"height\":1527}},\"fileName\":\"floriane-vita-88722-unsplash.jpg\",\"contentType\":\"image/jpeg\"}}}}},\"content\":[],\"nodeType\":\"embedded-asset-block\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Concept of the number one brain is the seed of intelligence white dwarf cosmic ocean hundreds of thousands colonies. Two ghostly white figures in coveralls and helmets are soflty dancing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"blockquote\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Intelligent beings globular star cluster corpus callosum cosmic ocean vastness is bearable only through love Cambrian explosion. Apollonius of Perga rich in mystery muse about permanence of the stars the ash of stellar alchemy stirred by starlight. Two ghostly white figures in coveralls and helmets are soflty dancing inconspicuous motes of rock and gas courage of our questions concept of the number one from which we spring gathered by gravity and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}",
-      "nodeType": "document",
-      "id": "a3480920-90a1-5add-917f-fe9f8251cc90",
-      "parent": "a7ebdb23-56c0-552e-848a-6b70b7f0db56",
-      "children": [
-        "a63509c8-22a4-5a4b-91a7-32a58043e227"
-      ],
-      "internal": {
-        "type": "contentfulPostContentRichTextNode",
-        "mediaType": "text/richtext",
-        "content": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Hypatia from which we spring a very small stage in a vast cosmic arena hearts of the stars paroxysm of global death worldlets? Two \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"ghostly\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" white figures in coveralls and helmets are soflty dancing white dwarf sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem bits of moving fluff cosmic ocean rich in heavy atoms. Sea of Tranquility made in the interiors of collapsing stars permanence of the stars quis nostrum exercitationem ullam corporis suscipit laboriosam gathered by gravity the sky calls to us.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{\"target\":{\"sys\":{\"space\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Space\",\"id\":\"c68nfklj2gzx5\"}},\"id\":\"c6UcDcLLMKuOjVwcItujIrW\",\"type\":\"Asset\",\"createdAt\":\"2019-03-30T01:45:52.281Z\",\"updatedAt\":\"2019-03-30T01:45:52.281Z\",\"environment\":{\"sys\":{\"id\":\"master\",\"type\":\"Link\",\"linkType\":\"Environment\"}},\"revision\":1},\"fields\":{\"title\":{\"en-US\":\"Test\"},\"description\":{\"en-US\":\"Test image\"},\"file\":{\"en-US\":{\"url\":\"//images.ctfassets.net/68nfklj2gzx5/6UcDcLLMKuOjVwcItujIrW/f45ab6cf940e03227ed785e10fe6f95e/floriane-vita-88722-unsplash.jpg\",\"details\":{\"size\":896111,\"image\":{\"width\":2299,\"height\":1527}},\"fileName\":\"floriane-vita-88722-unsplash.jpg\",\"contentType\":\"image/jpeg\"}}}}},\"content\":[],\"nodeType\":\"embedded-asset-block\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Concept of the number one brain is the seed of intelligence white dwarf cosmic ocean hundreds of thousands colonies. Two ghostly white figures in coveralls and helmets are soflty dancing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"blockquote\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Intelligent beings globular star cluster corpus callosum cosmic ocean vastness is bearable only through love Cambrian explosion. Apollonius of Perga rich in mystery muse about permanence of the stars the ash of stellar alchemy stirred by starlight. Two ghostly white figures in coveralls and helmets are soflty dancing inconspicuous motes of rock and gas courage of our questions concept of the number one from which we spring gathered by gravity and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}",
-        "contentDigest": "f683dbca6aa0d2d3c91d52bad52de279",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -1391,6 +1402,17 @@
         "owner": "gatsby-source-contentful"
       }
     },
+    "a63509c8-22a4-5a4b-91a7-32a58043e227": {
+      "id": "a63509c8-22a4-5a4b-91a7-32a58043e227",
+      "children": [],
+      "parent": "a3480920-90a1-5add-917f-fe9f8251cc90",
+      "internal": {
+        "content": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Hypatia from which we spring a very small stage in a vast cosmic arena hearts of the stars paroxysm of global death worldlets? Two \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"ghostly\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" white figures in coveralls and helmets are soflty dancing white dwarf sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem bits of moving fluff cosmic ocean rich in heavy atoms. Sea of Tranquility made in the interiors of collapsing stars permanence of the stars quis nostrum exercitationem ullam corporis suscipit laboriosam gathered by gravity the sky calls to us.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{\"target\":{\"sys\":{\"space\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Space\",\"id\":\"c68nfklj2gzx5\"}},\"id\":\"c6UcDcLLMKuOjVwcItujIrW\",\"type\":\"Asset\",\"createdAt\":\"2019-03-30T01:45:52.281Z\",\"updatedAt\":\"2019-03-30T01:45:52.281Z\",\"environment\":{\"sys\":{\"id\":\"master\",\"type\":\"Link\",\"linkType\":\"Environment\"}},\"revision\":1},\"fields\":{\"title\":{\"en-US\":\"Test\"},\"description\":{\"en-US\":\"Test image\"},\"file\":{\"en-US\":{\"url\":\"//images.ctfassets.net/68nfklj2gzx5/6UcDcLLMKuOjVwcItujIrW/f45ab6cf940e03227ed785e10fe6f95e/floriane-vita-88722-unsplash.jpg\",\"details\":{\"size\":896111,\"image\":{\"width\":2299,\"height\":1527}},\"fileName\":\"floriane-vita-88722-unsplash.jpg\",\"contentType\":\"image/jpeg\"}}}}},\"content\":[],\"nodeType\":\"embedded-asset-block\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Concept of the number one brain is the seed of intelligence white dwarf cosmic ocean hundreds of thousands colonies. Two ghostly white figures in coveralls and helmets are soflty dancing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"blockquote\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Intelligent beings globular star cluster corpus callosum cosmic ocean vastness is bearable only through love Cambrian explosion. Apollonius of Perga rich in mystery muse about permanence of the stars the ash of stellar alchemy stirred by starlight. Two ghostly white figures in coveralls and helmets are soflty dancing inconspicuous motes of rock and gas courage of our questions concept of the number one from which we spring gathered by gravity and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline too!\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}",
+        "type": "ContentfulRichText",
+        "contentDigest": "d8b7efa00843d6b2823fbd49b79bf271",
+        "owner": "@contentful/gatsby-transformer-contentful-richtext"
+      }
+    },
     "74a1750d-62fc-53ea-85b9-84a951a245cf": {
       "id": "74a1750d-62fc-53ea-85b9-84a951a245cf",
       "children": [],
@@ -1402,15 +1424,32 @@
         "owner": "@contentful/gatsby-transformer-contentful-richtext"
       }
     },
-    "a63509c8-22a4-5a4b-91a7-32a58043e227": {
-      "id": "a63509c8-22a4-5a4b-91a7-32a58043e227",
+    "SitePage /test": {
+      "jsonName": "test-098",
+      "internalComponentName": "ComponentTest",
+      "path": "/test",
+      "component": "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js",
+      "componentChunkName": "component---src-templates-blog-post-contentful-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "test",
+        "previous": {
+          "slug": "test-two",
+          "title": "Second post test"
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js",
+      "id": "SitePage /test",
+      "parent": null,
       "children": [],
-      "parent": "a3480920-90a1-5add-917f-fe9f8251cc90",
       "internal": {
-        "content": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Hypatia from which we spring a very small stage in a vast cosmic arena hearts of the stars paroxysm of global death worldlets? Two \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"ghostly\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" white figures in coveralls and helmets are soflty dancing white dwarf sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem bits of moving fluff cosmic ocean rich in heavy atoms. Sea of Tranquility made in the interiors of collapsing stars permanence of the stars quis nostrum exercitationem ullam corporis suscipit laboriosam gathered by gravity the sky calls to us.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{\"target\":{\"sys\":{\"space\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Space\",\"id\":\"c68nfklj2gzx5\"}},\"id\":\"c6UcDcLLMKuOjVwcItujIrW\",\"type\":\"Asset\",\"createdAt\":\"2019-03-30T01:45:52.281Z\",\"updatedAt\":\"2019-03-30T01:45:52.281Z\",\"environment\":{\"sys\":{\"id\":\"master\",\"type\":\"Link\",\"linkType\":\"Environment\"}},\"revision\":1},\"fields\":{\"title\":{\"en-US\":\"Test\"},\"description\":{\"en-US\":\"Test image\"},\"file\":{\"en-US\":{\"url\":\"//images.ctfassets.net/68nfklj2gzx5/6UcDcLLMKuOjVwcItujIrW/f45ab6cf940e03227ed785e10fe6f95e/floriane-vita-88722-unsplash.jpg\",\"details\":{\"size\":896111,\"image\":{\"width\":2299,\"height\":1527}},\"fileName\":\"floriane-vita-88722-unsplash.jpg\",\"contentType\":\"image/jpeg\"}}}}},\"content\":[],\"nodeType\":\"embedded-asset-block\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This is a headline\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-2\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit stirred by starlight citizens of distant epochs take root and flourish ship of the imagination trillion. Prime number Ut enim ad minima veniam Sea of Tranquility the sky calls to us Ut enim ad minima veniam \",\"nodeType\":\"text\"},{\"data\":{\"uri\":\"https://midorichan.design\"},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"encyclopaedia galactica\",\"nodeType\":\"text\"}],\"nodeType\":\"hyperlink\"},{\"data\":{},\"marks\":[],\"value\":\". Courage of our questions consectetur shores of the cosmic ocean made in the interiors of collapsing stars Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur qui dolorem ipsum quia dolor sit amet and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Concept of the number one brain is the seed of intelligence white dwarf cosmic ocean hundreds of thousands colonies. Two ghostly white figures in coveralls and helmets are soflty dancing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"blockquote\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Intelligent beings globular star cluster corpus callosum cosmic ocean vastness is bearable only through love Cambrian explosion. Apollonius of Perga rich in mystery muse about permanence of the stars the ash of stellar alchemy stirred by starlight. Two ghostly white figures in coveralls and helmets are soflty dancing inconspicuous motes of rock and gas courage of our questions concept of the number one from which we spring gathered by gravity and billions upon billions upon billions upon billions upon billions upon billions upon billions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}",
-        "type": "ContentfulRichText",
-        "contentDigest": "a510d974ea583ba887343765504748ad",
-        "owner": "@contentful/gatsby-transformer-contentful-richtext"
+        "type": "SitePage",
+        "contentDigest": "a726d2cc2c280bdfcd62d099599041d0",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
       }
     },
     "SitePage /test-two": {
@@ -1422,11 +1461,11 @@
       "isCreatedByStatefulCreatePages": false,
       "context": {
         "slug": "test-two",
-        "previous": {
+        "previous": null,
+        "next": {
           "slug": "test",
           "title": "This is my first test post"
-        },
-        "next": null
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -1436,35 +1475,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a6ca66c54fc65fcf243965d9c3d6d981",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /test": {
-      "jsonName": "test-098",
-      "internalComponentName": "ComponentTest",
-      "path": "/test",
-      "component": "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js",
-      "componentChunkName": "component---src-templates-blog-post-contentful-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "slug": "test",
-        "previous": null,
-        "next": {
-          "slug": "test-two",
-          "title": "Second post test"
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js",
-      "id": "SitePage /test",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "38a405394836ba8f9b2eff6c7993cbda",
+        "contentDigest": "90c3226da36aebd75dbcf12559985433",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -1599,30 +1610,24 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "68nfklj2gzx5-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCiQZVaVTDgMKuQVjDrzkfwqLCsiNiSn8yOiI5aw7Clh7CtnwXIDjCqcKXN8KgD2HDr1vDvMOBC8O9w6vCksOJF2N0woTCtsKTwq1eHMKlwrbCgFB0w5fCjcO6Ag"
+        "68nfklj2gzx5-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyYpYsK1woDCiDl-D1jDsG8dKMKWwocvwqUsw4jDjnzDky1VJ8KXLQ7DnMKMb8OkJ8OTK3TCgDbDmnnDkTXCoTcxwqrDqcKJcGnDvyRfw5xhw6YFWyfCucOaw5XDu8Os"
       }
     },
-    "PLUGINS_HASH": "3c5125364a2256bfb5a6a37c91abf574"
+    "PLUGINS_HASH": "da33ac2adcaaf89051b0f57617f7e309"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "/",
-        "/test-two",
-        "/test",
         "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
-      ],
-      "7812045a-c7b7-5912-bc8e-8d569cba7628": [
-        "/test-two"
+        "sq--src-components-seo-js",
+        "/test",
+        "/test-two",
+        "/"
       ],
       "a7ebdb23-56c0-552e-848a-6b70b7f0db56": [
         "/test"
       ],
-      "89fc9c97-ee88-59c5-8d50-103e5b90d18c": [
-        "/test-two"
-      ],
-      "83e82f8b-aadb-5711-a4ca-d7d8e82ae8bd": [
+      "7812045a-c7b7-5912-bc8e-8d569cba7628": [
         "/test-two"
       ],
       "e41c8f47-e072-56a2-a8b4-688fbccd8bec": [
@@ -1631,11 +1636,17 @@
       "a3480920-90a1-5add-917f-fe9f8251cc90": [
         "/test"
       ],
-      "74a1750d-62fc-53ea-85b9-84a951a245cf": [
+      "89fc9c97-ee88-59c5-8d50-103e5b90d18c": [
+        "/test-two"
+      ],
+      "83e82f8b-aadb-5711-a4ca-d7d8e82ae8bd": [
         "/test-two"
       ],
       "a63509c8-22a4-5a4b-91a7-32a58043e227": [
         "/test"
+      ],
+      "74a1750d-62fc-53ea-85b9-84a951a245cf": [
+        "/test-two"
       ]
     },
     "connections": {
@@ -1647,14 +1658,14 @@
   "jsonDataPaths": {
     "sq--src-components-seo-js": 2417117884,
     "sq--src-components-layout-js": 755544856,
-    "test-098": "267/path---test-098-ef6-xz1Vb5pqRPm29U3JKRE3YYiCIDQ",
-    "test-two-43f": "324/path---test-two-43-f-c85-pxYLUUnnd4OHH12CzL4ScKjsP4",
+    "test-098": "29/path---test-098-ef6-kdxU0nwgwzUNMAVK7TSxJ2bDhnM",
+    "test-two-43f": "327/path---test-two-43-f-c85-sKu3jvywh3vpb6YV5cMgQE2aZjo",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "blog-f7a": "433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "work-fa6": "892/path---work-fa-6-fb4-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "923/path---index-6a9-6ZYpqwFPERANd76gloA1NfDqvo",
+    "index": "421/path---index-6a9-1AxUSZ69b7H4TzTUY88jQACw1w8",
     "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
@@ -1662,10 +1673,10 @@
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/templates/blog-post-contentful.js",
       "query": "query ContentfulBlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  contentfulPost(slug: {eq: $slug}) {\n    title\n    subtitle\n    author\n    featuredImage {\n      fluid {\n        ...GatsbyContentfulFluid\n      }\n    }\n    createdAt(formatString: \"MMMM DD, YYYY\")\n    content {\n      childContentfulRichText {\n        html\n      }\n    }\n  }\n}\n\nfragment GatsbyContentfulFluid on ContentfulFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "pages": [
-        "/test-two",
-        "/test"
+        "/test",
+        "/test-two"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js",
@@ -1673,7 +1684,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
@@ -1682,7 +1693,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js",
@@ -1690,7 +1701,7 @@
       "pages": [
         "/about/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js",
@@ -1698,7 +1709,7 @@
       "pages": [
         "/blog/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js",
@@ -1706,7 +1717,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js",
@@ -1714,7 +1725,7 @@
       "pages": [
         "/work/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     }
   },
   "staticQueryComponents": {

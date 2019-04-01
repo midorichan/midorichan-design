@@ -4,6 +4,8 @@ if (process.env.NODE_ENV !== 'production') {
   dotenv.config()
 }
 
+const { BLOCKS } = require('@contentful/rich-text-types')
+
 module.exports = {
   siteMetadata: {
     title: 'Paula Alonso Ishihara | UX Designer',
@@ -59,7 +61,24 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    '@contentful/gatsby-transformer-contentful-richtext',
+    {
+      resolve: '@contentful/gatsby-transformer-contentful-richtext',
+      options: {
+        renderOptions: {
+          /*
+           * Defines custom html string for each node type like heading, embedded entries etc..
+           */
+          renderNode: {
+            // Example
+            [BLOCKS.EMBEDDED_ASSET]: node => {
+            return `<picture><img class='post-image' src="${
+                node.data.target.fields.file['en-US'].url
+              }"/></picture>`
+            },
+          },
+        },
+      },
+    },
     'gatsby-transformer-sharp', 
     'gatsby-plugin-sharp',
   ],
