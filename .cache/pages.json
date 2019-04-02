@@ -31,13 +31,23 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-contentful-js",
-        "jsonName": "test-098",
-        "path": "/test"
+        "jsonName": "first-post-253",
+        "path": "/first-post"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-contentful-js",
+        "jsonName": "fourth-post-6bf",
+        "path": "/fourth-post"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-contentful-js",
         "jsonName": "test-two-43f",
         "path": "/test-two"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-contentful-js",
+        "jsonName": "third-post-5e7",
+        "path": "/third-post"
     },
     {
         "componentChunkName": "component---src-pages-work-js",

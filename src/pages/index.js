@@ -110,7 +110,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allContentfulPost {
+    allContentfulPost(limit: 3) {
       edges {
         node {
           title

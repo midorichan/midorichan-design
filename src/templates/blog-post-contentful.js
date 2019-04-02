@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-
+import './blog-post-contentful.css'
 
 class BlogPostContentfulTemplate extends React.Component {
   render() {
@@ -18,43 +18,49 @@ class BlogPostContentfulTemplate extends React.Component {
           title={post.title}
           description={post.subtitle}
         />
-        
-        <div className="PostHeadline">
-        <svg width="100%" height="137" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 25.9222C277 84.6264 433 65.7704 720 25.9222C934.818 -3.90394 1214.06 -5.23943 1442 8.07019C2079 45.2658 2208 63.5339 2560 25.9223V137H0V25.9222Z" fill="#EEEEEE"/>
-                </svg>
-        <Img fluid={post.featuredImage.fluid} />
-    
-        </div>
-        <div className="Hero">
-          <div className="HeroGroup">
-              <h1>{post.title}</h1>
+
+      <div className="BlogHero">
+          <div className="BlogGroup">
+          <h1>{post.title}</h1>
               <h2>{post.subtitle}</h2>
-              <p>{post.createdAt}</p>
-              <svg width="100%" height="137" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 25.9222C277 84.6264 433 65.7704 720 25.9222C934.818 -3.90394 1214.06 -5.23943 1442 8.07019C2079 45.2658 2208 63.5339 2560 25.9223V137H0V25.9222Z" fill="#EEEEEE"/>
-                </svg>         
+              <small>{post.createdAt}</small>      
           </div>
+          <svg width="100%" height="100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2560V78.4219C2283 112.392 2127 101.481 1840 78.4219C1625.18 61.1626 1345.94 60.3898 1118 68.0916C1023.03 71.3007 939.345 74.2663 864.533 76.9176C437.576 92.0488 299.518 96.9415 0 78.422V0Z" fill="white"/>
+          </svg>
       </div>
 
+
+        <div className="PostHeadline">
+        
+        <Img fluid={post.featuredImage.fluid} />
+        <svg width="100%" height="100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 18.9213C277 61.7711 433 48.0076 720 18.9213C934.818 -2.84959 1214.06 -3.8244 1442 5.89065C2079 33.0407 2208 46.3751 2560 18.9214V100H0V18.9213Z" fill="#FFFFFF"/>
+</svg>
+
+        </div>
+
+
+
         <div className="Content" dangerouslySetInnerHTML={{ __html: post.content.childContentfulRichText.html }} />
-      
+      <div className="PostNav">
         <ul>
-          <li>
-            {previous && (
-              <Link to={previous.slug} rel="prev">
-                ← {previous.title}
+        <li>
+            {next && (
+              <Link to={next.slug} rel="next">
+              ← {next.title}
               </Link>
             )}
           </li>
           <li>
-            {next && (
-              <Link to={next.slug} rel="next">
-                {next.title} →
+            {previous && (
+              <Link to={previous.slug} rel="prev">
+                {previous.title} →
               </Link>
             )}
           </li>
         </ul>
+       </div>
       </Layout>
     )
   }
