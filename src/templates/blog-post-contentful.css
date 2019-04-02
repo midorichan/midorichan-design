@@ -129,13 +129,12 @@
 
     .PostNav ul {
         padding: 50px 50px;
+        justify-content: center;
     }
     
     .PostNav ul li {
-        max-width: 350px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        padding-bottom: 20px;
+        
     }
       
   }
@@ -162,10 +161,6 @@
     .Content p {
         line-height: 1.4;
         font-size: 18px;
-    }
-
-    .PostNav ul {
-        padding: 50px 20px;
     }
 
   }
