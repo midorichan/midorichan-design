@@ -1223,12 +1223,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-02T22:58:09.335Z",
+      "buildTime": "2019-04-03T00:37:50.164Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6b96c87b8b3a86230bed05471ec8e904",
+        "contentDigest": "72eed592e1d424278de389fdd15d9d81",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

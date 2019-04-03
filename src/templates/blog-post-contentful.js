@@ -31,21 +31,21 @@ class BlogPostContentfulTemplate extends React.Component {
       </div>
 
 
-        <div className="PostHeadline">
+      <div className="PostHeadline">
         
         <Img fluid={post.featuredImage.fluid} />
         <svg width="100%" height="100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 18.9213C277 61.7711 433 48.0076 720 18.9213C934.818 -2.84959 1214.06 -3.8244 1442 5.89065C2079 33.0407 2208 46.3751 2560 18.9214V100H0V18.9213Z" fill="#FFFFFF"/>
-</svg>
+          <path d="M0 18.9213C277 61.7711 433 48.0076 720 18.9213C934.818 -2.84959 1214.06 -3.8244 1442 5.89065C2079 33.0407 2208 46.3751 2560 18.9214V100H0V18.9213Z" fill="#FFFFFF"/>
+        </svg>
 
-        </div>
+      </div>
 
 
-
-        <div className="Content" dangerouslySetInnerHTML={{ __html: post.content.childContentfulRichText.html }} />
+      <div className="Content" dangerouslySetInnerHTML={{ __html: post.content.childContentfulRichText.html }} />
+      
       <div className="PostNav">
         <ul>
-        <li>
+          <li>
             {next && (
               <Link to={next.slug} rel="next">
               ← {next.title}
