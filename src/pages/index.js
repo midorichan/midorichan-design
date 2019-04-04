@@ -21,7 +21,7 @@ class IndexPage extends React.Component {
           <div className="HeroGroup">
             <h2>Hola. Hello. こんにちは。</h2>
             <h1>I am Paula Alonso Ishihara<span>.</span></h1>
-            <p>A designer passionate about creating usable digital products. I have worked with incredibly talented people across different companies.
+            <p>A designer passionate about creating usable digital products. I have worked with incredibly talented people across different companies.<br />
             Currently based in <a className="underlined Offset" href="https://www.google.com/destination?q=mar+del+plata&newwindow=1&sa=X&site=search&output=search&dest_mid=/m/01psv5&ved=2ahUKEwiQ7Or_z6PhAhVUDrkGHdyeAiEQri4wInoECBQQAw" title="Mar del Plata, Buenos Aires, Argentina"><Emoji symbol="📍" label="Location Pushpin" />Mar del Plata, Argentina</a>.</p>
             <div className='icon-scroll'></div>
             <svg width="100%" height="137" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,14 +67,14 @@ class IndexPage extends React.Component {
             {posts.map(({ node }) => {
                   const title = node.title || node.slug
                   return (
-                      <div key={node.slug}>
-                        <h3>
-                          <Link to={node.slug}>
-                            {title}
-                          </Link>
-                        </h3>
-                        <small>{node.createdAt}</small>
-                        <p>{node.subtitle}</p>
+                      <div className="PostPreview" key={node.slug}>
+                          <h3>
+                            <Link to={node.slug}>
+                              {title}
+                            </Link>
+                          </h3>
+                          <small>{node.createdAt}</small>
+                          <p>{node.subtitle}</p>
                       </div>
                   )
                 })}

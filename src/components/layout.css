@@ -36,9 +36,34 @@ a {
   font-weight: 600;
 }
 
+.underlined {
+  color: black;
+  flex: 1;
+  line-height: 1.2;
+  text-decoration: none;
+  background-image: linear-gradient(to right,#ef463a83 0,#ef463a83  100%);
+  background-position: 0 1.2em;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background .5s;
+}
+
+.underlined:hover {
+  background-size: 100% 100%;
+}
+
+.Offset {
+  background-position: 0 0.2em;
+  /* didn't find another solution than mask the underline shape by a box shadow with the same color than the bg
+  box-shadow: inset 0 -.5em 0 0 white; */
+}
+
+svg {
+  display: block;
+}
 
 .Content {
-  margin: 0 auto;
+  margin: 20px auto 0;
   display: grid;
   max-width: 900px;
   grid-template-columns: auto;
@@ -116,27 +141,6 @@ h1 span {
   transition: 0.8s;
 }
 
-@media (max-width: 640px) {
-  .HeroGroup {
-    padding: 100px 50px;
-  }
-
-  .Hero h1 {
-    font-size: 42px;
-    line-height: 1.1;
-  }
-
-  .Hero h2 {
-    font-size: 18px;
-  }
-
-  .Hero p {
-    font-size: 18px;
-    transition: 0.5s;
-  }
-}
-
-
 @keyframes HeroAnimation {
   0% {
     opacity: 0;
@@ -173,6 +177,20 @@ h1 span {
   background: #C70039;
 }
 
+.PostPreview {
+  padding-bottom: 40px;
+}
+
+
+.PostPreview h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.PostPreview p {
+  margin-top: 0;
+}
+
 .Wave {
   background: #eeeeee;
   min-height: 300px;
@@ -193,6 +211,26 @@ h1 span {
   transition: 0.8s;
 }
 
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 50px;
+  }
+
+  .Hero h1 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .Hero h2 {
+    font-size: 18px;
+  }
+
+  .Hero p {
+    font-size: 18px;
+    transition: 0.5s;
+  }
+}
+
 
 @media (max-width: 980px){
   .CardGroup {
@@ -206,7 +244,7 @@ h1 span {
   }
 
   .Content {
-    margin: 0 40px;
+    margin: 20px 40px 0;
     transition: 0.8s;
   }
 }
@@ -281,29 +319,5 @@ h1 span {
  
 
 
-.underlined {
-  color: black;
-  flex: 1;
-  line-height: 1.2;
-  text-decoration: none;
-  background-image: linear-gradient(to right,#ef463a83 0,#ef463a83  100%);
-  background-position: 0 1.2em;
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: background .5s;
-}
 
-.underlined:hover {
-  background-size: 100% 100%;
-}
-
-.Offset {
-  background-position: 0 0.2em;
-  /* didn't find another solution than mask the underline shape by a box shadow with the same color than the bg
-  box-shadow: inset 0 -.5em 0 0 white; */
-}
-
-svg {
-  display: block;
-}
 

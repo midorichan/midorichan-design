@@ -1223,12 +1223,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-03T00:37:50.164Z",
+      "buildTime": "2019-04-04T02:39:21.273Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "72eed592e1d424278de389fdd15d9d81",
+        "contentDigest": "7252af11678f3614b8769dae760411a8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1782,12 +1782,13 @@
       "Site": [
         "/test",
         "/test-two",
-        "/",
         "/fourth-post",
         "/first-post",
         "/third-post",
-        "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "/blog/",
+        "/",
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
       ],
       "a7ebdb23-56c0-552e-848a-6b70b7f0db56": [
         "/test",
@@ -1840,6 +1841,7 @@
     },
     "connections": {
       "ContentfulPost": [
+        "/blog/",
         "/"
       ]
     }
@@ -1851,7 +1853,7 @@
     "test-two-43f": "39/path---test-two-43-f-c85-qS9SKP0n998J2PCh3ggHJCNhw5E",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "blog-f7a": "433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "blog-f7a": "747/path---blog-f-7-a-05d-0nbYJ5TObZVAfd6P5Xyuz8M",
     "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "work-fa6": "892/path---work-fa-6-fb4-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "index": "713/path---index-6a9-JTHLPlS6mzM37JZCj7Ot0Gc0",
@@ -1870,7 +1872,7 @@
         "/third-post",
         "/fourth-post"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js",
@@ -1878,7 +1880,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
@@ -1887,7 +1889,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js",
@@ -1895,15 +1897,15 @@
       "pages": [
         "/about/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js",
-      "query": "",
+      "query": "query usersPaulaDocumentsGitHubMidorichanDesignSrcPagesBlogJs4172035038 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allContentfulPost(limit: 25) {\n    edges {\n      node {\n        title\n        subtitle\n        slug\n        createdAt(formatString: \"MMMM DD, YYYY\")\n      }\n    }\n  }\n}\n",
       "pages": [
         "/blog/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js",
@@ -1911,7 +1913,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js",
@@ -1919,7 +1921,7 @@
       "pages": [
         "/work/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {
