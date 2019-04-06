@@ -110,7 +110,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allContentfulPost(limit: 3) {
+    allContentfulPost(
+      limit: 3
+      sort: { fields: createdAt, order: DESC }
+      ) {
       edges {
         node {
           title

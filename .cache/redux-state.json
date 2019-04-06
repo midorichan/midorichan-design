@@ -1223,12 +1223,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-04T02:39:21.273Z",
+      "buildTime": "2019-04-06T00:07:56.880Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7252af11678f3614b8769dae760411a8",
+        "contentDigest": "cdff9d0de30650894edb1b3fe456ae9f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1853,10 +1853,10 @@
     "test-two-43f": "39/path---test-two-43-f-c85-qS9SKP0n998J2PCh3ggHJCNhw5E",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "blog-f7a": "747/path---blog-f-7-a-05d-0nbYJ5TObZVAfd6P5Xyuz8M",
+    "blog-f7a": "774/path---blog-f-7-a-05d-GsH5lgeeqm1WRteunA2eFgw5s",
     "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "work-fa6": "892/path---work-fa-6-fb4-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "713/path---index-6a9-JTHLPlS6mzM37JZCj7Ot0Gc0",
+    "index": "733/path---index-6a9-3tVFX1B7tg3KpvsSUqxDibHngmY",
     "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "fourth-post-6bf": "425/path---fourth-post-6-bf-e6a-PoJimorbkRzXD5WE0B1YGZYD23Q",
     "first-post-253": "434/path---first-post-253-be0-jY9FBfeVLcqsuTey8oVN234bI",
@@ -1872,7 +1872,7 @@
         "/third-post",
         "/fourth-post"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js",
@@ -1880,7 +1880,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
@@ -1889,7 +1889,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js",
@@ -1897,23 +1897,23 @@
       "pages": [
         "/about/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js",
-      "query": "query usersPaulaDocumentsGitHubMidorichanDesignSrcPagesBlogJs4172035038 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allContentfulPost(limit: 25) {\n    edges {\n      node {\n        title\n        subtitle\n        slug\n        createdAt(formatString: \"MMMM DD, YYYY\")\n      }\n    }\n  }\n}\n",
+      "query": "query usersPaulaDocumentsGitHubMidorichanDesignSrcPagesBlogJs1252013075 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allContentfulPost(limit: 25, sort: {fields: createdAt, order: DESC}) {\n    edges {\n      node {\n        title\n        subtitle\n        slug\n        createdAt(formatString: \"MMMM DD, YYYY\")\n      }\n    }\n  }\n}\n",
       "pages": [
         "/blog/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js",
-      "query": "query usersPaulaDocumentsGitHubMidorichanDesignSrcPagesIndexJs2599025793 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allContentfulPost(limit: 3) {\n    edges {\n      node {\n        title\n        subtitle\n        slug\n        createdAt(formatString: \"MMMM DD, YYYY\")\n      }\n    }\n  }\n}\n",
+      "query": "query usersPaulaDocumentsGitHubMidorichanDesignSrcPagesIndexJs1156327346 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allContentfulPost(limit: 3, sort: {fields: createdAt, order: DESC}) {\n    edges {\n      node {\n        title\n        subtitle\n        slug\n        createdAt(formatString: \"MMMM DD, YYYY\")\n      }\n    }\n  }\n}\n",
       "pages": [
         "/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js",
@@ -1921,7 +1921,7 @@
       "pages": [
         "/work/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     }
   },
   "staticQueryComponents": {
