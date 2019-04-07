@@ -1223,12 +1223,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-06T00:07:56.880Z",
+      "buildTime": "2019-04-07T21:49:55.521Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "cdff9d0de30650894edb1b3fe456ae9f",
+        "contentDigest": "075b5e53316b855f957eea2b93c33378",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1787,8 +1787,8 @@
         "/third-post",
         "/blog/",
         "/",
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ],
       "a7ebdb23-56c0-552e-848a-6b70b7f0db56": [
         "/test",

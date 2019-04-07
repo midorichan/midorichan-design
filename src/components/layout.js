@@ -56,7 +56,7 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
           <Header />
-          {children}
+          <main>{children}</main>
           <Footer />
       </>
     )}
