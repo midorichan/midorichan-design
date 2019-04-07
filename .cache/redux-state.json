@@ -1872,7 +1872,7 @@
         "/third-post",
         "/fourth-post"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/.cache/dev-404-page.js",
@@ -1880,7 +1880,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/404.js",
@@ -1889,7 +1889,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/about.js",
@@ -1897,7 +1897,7 @@
       "pages": [
         "/about/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/blog.js",
@@ -1905,7 +1905,7 @@
       "pages": [
         "/blog/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/index.js",
@@ -1913,7 +1913,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js": {
       "componentPath": "/Users/paula/Documents/GitHub/midorichan-design/src/pages/work.js",
@@ -1921,7 +1921,7 @@
       "pages": [
         "/work/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {

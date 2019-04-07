@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import './Header.css'
 
 const Header = ({ siteTitle }) => (
+  <nav>
   <div className="Header">
     <div className="HeaderGroup">
       <Link to="/"><img src={require('../images/logo.svg')} width="40" alt="Paula Alonso Ishihara logo"/></Link>
@@ -11,6 +12,7 @@ const Header = ({ siteTitle }) => (
       <Link className="underlined Offset" to="/blog">Blog</Link>
     </div>
   </div>
+  </nav>
 )
 
 export default Header
