@@ -36,8 +36,8 @@ class IndexPage extends React.Component {
           </div>
           <div className="CardGroup">
             <Card 
-              title="Innovative Mobile Advertising for Luxury Brands"
-              text="WSJ Revenue"
+              title="Innovating with Mobile Advertising"
+              text="Wall Street Journal"
               image={require('../images/wallpaper2.jpg')}/>
             <Card 
               title="Dairy Modernization Project"
