@@ -10,8 +10,7 @@ const Work = () => (
      <div className="Hero">
       <div className="HeroGroup">
         <h1>Work<span>.</span></h1>
-        <p>A designer passionate about creating usable digital products. I have worked with incredibly talented people across different companies.
-        Currently based in Mar del Plata, Argentina.</p>
+        <p>I have worked with incredibly talented people across different companies. Throughout my career, I had the chance to work in many industries and their audiences, helping build solutions to meet their goals and motivations. </p>
       <svg width="100%" height="137" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 25.9222C277 84.6264 433 65.7704 720 25.9222C934.818 -3.90394 1214.06 -5.23943 1442 8.07019C2079 45.2658 2208 63.5339 2560 25.9223V137H0V25.9222Z" fill="#EEEEEE"/>
         </svg>
